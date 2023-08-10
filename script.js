@@ -1,16 +1,33 @@
 document.addEventListener("DOMContentLoaded", function() {
+    // Initial state
+    history.replaceState({ page: "surveyIntro" }, "");
+
     // Handle survey start
     document.getElementById("startSurvey").addEventListener("click", function() {
-      document.getElementById("surveyIntro").style.display = "none";
-      document.getElementById("question1").style.display = "block";
+        history.pushState({ page: "question1" }, "");
+        navigateTo("question1");
     });
-  
+
     // Handle next question button
     document.getElementById("nextQuestion").addEventListener("click", function() {
-      document.getElementById("question1").style.display = "none";
-      document.getElementById("interestsPage").style.display = "block";
+        history.pushState({ page: "interestsPage" }, "");
+        navigateTo("interestsPage");
     });
-  
+
+    // Handle browser's back or forward buttons
+    window.addEventListener("popstate", function(event) {
+        if (event.state && event.state.page) {
+            navigateTo(event.state.page);
+        }
+    });
+
+    // Navigation function
+    function navigateTo(page) {
+        document.getElementById("surveyIntro").style.display = "none";
+        document.getElementById("question1").style.display = "none";
+        document.getElementById("interestsPage").style.display = "none";
+        document.getElementById(page).style.display = "block";
+    }
     // Previous JavaScript code for interest selection
     var interests = document.querySelectorAll('.interest');
   
