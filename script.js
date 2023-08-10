@@ -10,6 +10,8 @@ document.addEventListener("DOMContentLoaded", function() {
 
     // Handle next question button
     document.getElementById("nextQuestion").addEventListener("click", function() {
+        var selectedCareerStatus = document.querySelector('input[name="careerStatus"]:checked').value;
+        console.log("Selected career status:", selectedCareerStatus); // Log the selected status
         history.pushState({ page: "interestsPage" }, "");
         navigateTo("interestsPage");
     });
@@ -28,16 +30,14 @@ document.addEventListener("DOMContentLoaded", function() {
         document.getElementById("interestsPage").style.display = "none";
         document.getElementById(page).style.display = "block";
     }
+
     // Previous JavaScript code for interest selection
     var interests = document.querySelectorAll('.interest');
-  
     interests.forEach(function(interest) {
-      interest.addEventListener('click', function(e) {
-        e.preventDefault(); // Prevent the default link behavior
-        var selectedInterest = this.textContent.trim();
-        console.log("You selected:", selectedInterest); // Log the selected interest
-        // You can now do something with the selected interest
-      });
+        interest.addEventListener('click', function(e) {
+            e.preventDefault(); // Prevent the default link behavior
+            var selectedInterest = this.textContent.trim();
+            console.log("You selected:", selectedInterest); // Log the selected interest
+        });
     });
-  });
-  
+});

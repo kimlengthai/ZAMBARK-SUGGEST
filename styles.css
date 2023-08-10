@@ -1,68 +1,73 @@
 body {
     font-family: 'Tahoma', sans-serif;
-    background-color: #5a698b; /* Background color */
+    background-color: #5a698b;
     color: #000;
     margin: 0;
-  }
-  
-  h1 {
+}
+
+h1, h2 {
     color: #000;
     font-weight: bold;
     font-size: 18px;
-    margin: 0;
-  }
-  
-  p {
+    margin: 10px 0;
+}
+
+p {
     font-size: 12px;
-  }
-  
-  button {
+}
+
+button {
     background-color: #e0e0e0;
     border: 1px solid #7a9cc6;
     color: #000;
-    padding: 5px 15px;
+    padding: 5px 10px;
     font-size: 12px;
     cursor: pointer;
     outline: none;
-  }
-  
-  button:hover {
+}
+
+button:hover {
     background-color: #c0c0c0;
-  }
-  
-  #surveyIntro, #question1, #interestsPage {
-    background-color: #e0e0e0;
+}
+
+#surveyIntro, #question1, #interestsPage {
+    background-color: #f0f4f8;
     border: 1px solid #7a9cc6;
-    width: 400px; /* Dialog width */
+    width: 400px;
     margin: 50px auto;
-    padding: 15px;
+    padding: 10px;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
     text-align: left;
-  }
-  
-  .interests {
+}
+
+.interests {
     display: flex;
     flex-wrap: wrap;
     margin-top: 10px;
-  }
-  
-  .interests a {
+}
+
+.interests a {
     display: block;
-    padding: 5px;
+    padding: 3px;
     text-decoration: none;
     color: #000;
     border-radius: 3px;
     width: calc(100% - 10px);
     border: 1px solid #7a9cc6;
     background-color: #e0e0e0;
-    margin: 5px 0;
-  }
-  
-  .interests a:hover {
+    margin: 3px 0;
+}
+
+.interests a:hover {
     background-color: #c0c0c0;
-  }
-  
-  .question {
-    /* Add styling for the question pages */
-  }
-  
+}
+
+.question {
+    background-image: linear-gradient(to right, #e0e0e0, #f0f4f8);
+    border-radius: 5px;
+}
+
+#careerStatusForm label {
+    margin-bottom: 5px;
+    display: block;
+}

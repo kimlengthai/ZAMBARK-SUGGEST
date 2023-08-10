@@ -10,13 +10,23 @@
         <p>Take a 60 Second Survey to get matched up with your most compatible Course</p>
         <button id="startSurvey">OK</button>
     </div>
-    
+
     <div id="question1" class="question" style="display: none;">
-        <!-- Add the content of the first question here -->
+        <h2>What is your Career Status?</h2>
+        <form id="careerStatusForm">
+            <label><input type="radio" name="careerStatus" value="High School Student"> High School Student</label><br>
+            <label><input type="radio" name="careerStatus" value="Undergraduate Student"> Undergraduate Student</label><br>
+            <label><input type="radio" name="careerStatus" value="Postgraduate Student"> Postgraduate Student</label><br>
+            <label><input type="radio" name="careerStatus" value="Graduate Student"> Graduate Student</label><br>
+            <label><input type="radio" name="careerStatus" value="Masters Student"> Masters Student</label><br>
+            <label><input type="radio" name="careerStatus" value="PHD Student"> PHD Student</label><br>
+            <label><input type="radio" name="careerStatus" value="Full Time Graduate Employee"> Full Time Graduate Employee</label><br>
+            <label><input type="radio" name="careerStatus" value="Self Employed"> Self Employed</label><br>
+        </form>
         <button id="nextQuestion">Next</button>
-    
     </div>
-        <div id="interestsPage" class="question" style="display: none;">
+
+    <div id="interestsPage" class="question" style="display: none;">
         <h1>What's Your Interest?</h1>
         <p>Select a hobby or interest to find courses that match your passion:</p>
         <div class="interests">
