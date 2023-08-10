@@ -1,25 +1,68 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f9f9f9;
-    text-align: center;
-}
-
-.interests {
+    font-family: 'Tahoma', sans-serif;
+    background-color: #5a698b; /* Background color */
+    color: #000;
+    margin: 0;
+  }
+  
+  h1 {
+    color: #000;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  p {
+    font-size: 12px;
+  }
+  
+  button {
+    background-color: #e0e0e0;
+    border: 1px solid #7a9cc6;
+    color: #000;
+    padding: 5px 15px;
+    font-size: 12px;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  button:hover {
+    background-color: #c0c0c0;
+  }
+  
+  #surveyIntro, #question1, #interestsPage {
+    background-color: #e0e0e0;
+    border: 1px solid #7a9cc6;
+    width: 400px; /* Dialog width */
+    margin: 50px auto;
+    padding: 15px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    text-align: left;
+  }
+  
+  .interests {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-}
-
-.interest {
-    background-color: #007BFF;
-    color: white;
-    padding: 10px 20px;
-    margin: 10px;
+    margin-top: 10px;
+  }
+  
+  .interests a {
+    display: block;
+    padding: 5px;
     text-decoration: none;
-    border-radius: 5px;
-    transition: background-color 0.3s;
-}
-
-.interest:hover {
-    background-color: #0056b3;
-}
+    color: #000;
+    border-radius: 3px;
+    width: calc(100% - 10px);
+    border: 1px solid #7a9cc6;
+    background-color: #e0e0e0;
+    margin: 5px 0;
+  }
+  
+  .interests a:hover {
+    background-color: #c0c0c0;
+  }
+  
+  .question {
+    /* Add styling for the question pages */
+  }
+  
