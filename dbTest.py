@@ -14,3 +14,10 @@ try:
     print("Pinged your deployment. You successfully connected to MongoDB!")
 except Exception as e:
     print(e)
+
+db = client.CourseRecommendationSystem
+col = db.Courses
+
+cursor = col.find({"interests": "programming"})
+for doc in cursor:
+    print(doc)
