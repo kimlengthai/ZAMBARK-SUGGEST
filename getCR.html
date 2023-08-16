@@ -12,6 +12,13 @@
 </head>
 
 <body>
+  <nav>
+    <div class="nav__container">
+      <img src="assets/cr__logo.png" alt="Logo" class="logo">
+      <h1 class="nav__h1">Pick your interest</h1>
+    </div>
+  </nav>
+
   <section id="interests">
     <div class="container">
       <div class="row">
@@ -46,6 +53,21 @@
       </div>
     </div>
   </section>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const interestButtons = document.querySelectorAll('.btn');
+
+      interestButtons.forEach((btn) => {
+        btn.addEventListener('click', (e) => {
+          e.preventDefault();
+          const interestBox = e.target.closest('.interest');
+          interestBox.classList.toggle('interest--selected');
+          btn.classList.toggle('btn--selected');
+        });
+      });
+    });
+  </script>
 </body>
 
 </html>
