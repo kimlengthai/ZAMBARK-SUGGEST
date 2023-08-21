@@ -119,3 +119,22 @@ nav {
     flex-direction: column;
   }
 }
+
+#next-button-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#next-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: white;
+  border-radius: 5px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+
+
+
