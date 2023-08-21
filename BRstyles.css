@@ -65,6 +65,10 @@ h2 {
   text-align: center;
 }
 
+.ital {
+  font-style: italic;
+}
+
 button {
   cursor: pointer;
 }
@@ -114,12 +118,22 @@ button:active {
   clear: both;
 }
 
+
 .checked {
     color: rgb(201, 132, 3);
 }
 
 .logo {
   width: 160px;
+}
+
+.logoPlace{
+  width: 200px;
+}
+
+.emoji {
+  font-size: 120px;
+  margin-bottom: 10px;
 }
 
 .nav__container {
@@ -283,7 +297,7 @@ HIGHLIGHTS
 
 #highlights:after,
 #highlights:before {
-  background: url('wave.svg');
+  background: url('assets/wave.svg');
   content: "";
   position: absolute;
   width: 101vw;
