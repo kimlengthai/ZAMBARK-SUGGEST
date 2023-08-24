@@ -15,7 +15,7 @@ except Exception as e:
     print(e)
 
 db = client.CourseRecommendationSystem
-col = db.Courses
+col = db.subjects
 
 cursor = col.find({"interests": "programming"})
 for doc in cursor:
