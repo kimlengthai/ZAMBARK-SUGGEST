@@ -11,15 +11,13 @@ from typing import Annotated
 config = dotenv_values(".env")
 app = FastAPI()
 client = motor.motor_asyncio.AsyncIOMotorClient(config["ATLAS_URI"])
-db = client["CourseRecommendationSystem"]
-subjects = db["subjects"]
+subjects = client["subjects"]
 
-@app.get("/subjects/")
-async def get_subject(discipline: str | None = None,
+@app.get("/subjects/{faculty}/")
+async def get_subject(faculty: str,
                       availability: Annotated[list[str], Query()] = ["autumn", "spring"],
                       interests: Annotated[list[str] | None, Query()] = None):
-    if len(result := await subjects.aggregate([
-        {"$match": {"discipline": discipline}},
+    if len(result := await subjects[faculty].aggregate([
         {"$match": {"availability": {"$in": availability}}},
         {"$match": {"interests": {"$in": interests}}},
         {"$project": {
