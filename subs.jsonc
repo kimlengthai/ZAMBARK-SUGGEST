@@ -1,0 +1,1806 @@
+// Faculty of Law
+
+[
+  {
+    "code": "76086",
+    "name": "Advanced Commercial Transactions",
+    "credits": 6,
+    "availability": ["spring"],
+    "requisites": [["70327", "70417", "70517"]],
+    "antirequisites": [],
+    "mincp": 0,
+    "interests": ["analytical", "legal", "business", "finance"]
+  },
+  {
+    "code": "76047",
+    "name": "Advanced Contracts",
+    "credits": 6,
+    "availability": ["spring"],
+    "requisites": [["70211", "70517", "70327"]],
+    "antirequisites": [],
+    "mincp": 0,
+    "interests": ["legal", "analytical", "discussion"]
+  },
+  {
+    "code": "76037",
+    "name": "Advanced Criminal Law",
+    "credits": 6,
+    "availability": ["autumn", "spring"],
+    "requisites": [["70218", "70114"]],
+    "antirequisites": [],
+    "mincp": 0,
+    "interests": ["legal", "analytical", "discussion"]
+  },
+  {
+    "code": "76016",
+    "name": "Advanced Revenue Law",
+    "credits": 6,
+    "availability": ["autumn"],
+    "requisites": [["76212", "79017", "70517"], ["79606"]],
+    "antirequisites": [],
+    "mincp": 0,
+    "interests": ["legal", "analytical", "discussion"]
+  },
+  {
+    "code": "76033",
+    "name": "Animal Law and Policy in Australia",
+    "credits": 6,
+    "availability": ["autumn"],
+    "requisites": [["70616"], ["70110", "76006c", "70108c", "76110c"]],
+    "antirequisites": ["78218", "78219"],
+    "mincp": 0,
+    "interests": ["investigation", "discussion", "nature"]
+  },
+  {
+    "code": "76003",
+    "name": "Asian Law and Legal Systems",
+    "credits": 6,
+    "availability": ["autumn"],
+    "requisites": [["70616"], ["76006c", "70108c", "76110c", "70110"]],
+    "antirequisites": [],
+    "mincp": 0,
+    "interests": ["exploration", "discussion", "history"]
+  },
+  {
+    "code": "76074",
+    "name": "Australian Civil Liberties Law",
+    "credits": 6,
+    "availability": ["spring"],
+    "requisites": [["70218", "70114"], ["70616"]],
+    "antirequisites": [],
+    "mincp": 0,
+    "interests": ["analytical", "discussion", "investigation"]
+  },
+  {
+    "code": "76112",
+    "name": "Australian Private International Law",
+    "credits": 6,
+    "availability": ["autumn"],
+    "requisites": [["70311"], ["70616"]],
+    "antirequisites": [],
+    "mincp": 0,
+    "interests": ["analytical", "exploration", "investigation"]
+  },
+  {
+    "code": "77715",
+    "name": "Banking Law",
+    "credits": 6,
+    "availability": ["autumn"],
+    "requisites": ["70327c"],
+    "antirequisites": [],
+    "mincp": 0,
+    "interests": ["analytical", "investigation", "exploration"]
+  },
+  {
+    "code": "76070",
+    "name": "Biomedical Law and Bioethics",
+    "credits": 6,
+    "availability": ["autumn"],
+    "requisites": ["70120", "70102"],
+    "antirequisites": ["78146", "78147"],
+    "mincp": 0,
+    "interests": ["ethics and bioethics", "science", "technology", "exploration"]
+  },
+  {
+    "code": "76043",
+    "name": "Building and Construction Law",
+    "credits": 6,
+    "availability": ["spring"],
+    "requisites": ["70517"],
+    "antirequisites": [],
+    "mincp": 0,
+    "interests": ["analytical", "investigation", "exploration", "construction", "discussion/history"]
+  },
+  {
+    "code": "76066",
+    "name": "Children and the Law",
+    "credits": 6,
+    "availability": ["spring", "summer"],
+    "requisites": ["70218", "70114", "70311", "70616"],
+    "antirequisites": ["78128", "78129"],
+    "mincp": 0,
+    "interests": ["helping", "discussion", "exploration", "investigation"]
+  },
+  {
+    "code": "76048",
+    "name": "Citizenship and Immigration Law",
+    "credits": 6,
+    "availability": ["autumn"],
+    "requisites": [["70617", [["70108c", "76006c", "76110c"], "70110"]]],
+    "antirequisites": [],
+    "mincp": 0,
+    "interests": ["helping", "discussion", "exploration", "investigation"]
+  },
+  {
+    "code": "76041",
+    "name": "Climate Law and Carbon Markets",
+    "credits": 6,
+    "availability": ["summer"],
+    "requisites": ["70616"],
+    "antirequisites": ["78106", "78107"],
+    "mincp": 0,
+    "interests": ["environment", "discussion/policy analysis", "technology/innovation"]
+  },
+  {
+    "code": "76027",
+    "name": "Competition Law",
+    "credits": 6,
+    "availability": ["autumn"],
+    "requisites": ["70327"],
+    "antirequisites": [],
+    "mincp": 0,
+    "interests": ["analytical", "discussion", "economics", "investigation", "reading/writing"]
+  },
+  {
+    "code": "78030",
+    "name": "Criminal Sentencing Law",
+    "credits": 6,
+    "availability": ["spring"],
+    "requisites": ["70218", "70114"],
+    "antirequisites": [],
+    "mincp": 0,
+    "interests": ["analytical", "discussion", "helping", "reading/writing"]
+  },
+  {
+    "code": "76012",
+    "name": "Criminology",
+    "credits": 6,
+    "availability": ["autumn", "summer"],
+    "requisites": ["70218", "70114"],
+    "antirequisites": [],
+    "mincp": 0,
+    "interests": ["analytical", "discussion", "exploration", "investigation", "reading/writing", "history"]
+  },
+  {
+    "code": "76023",
+    "name": "Deceptive Trade Practices and Product Liability",
+    "credits": 6,
+    "availability": ["spring"],
+    "requisites": ["70211", "70311"],
+    "antirequisites": ["78123", "78181"],
+    "mincp": 0,
+    "interests": ["analytical", "discussion", "investigation", "reading/writing", "technology"]
+  },
+  {
+    "code": "76010",
+    "name": "Disability and the Law",
+    "credits": 6,
+    "availability": ["autumn"],
+    "requisites": [[["70616", ["76006", "70108c"]], "70110"]],
+    "antirequisites": ["78229", "78230"],
+    "mincp": 0,
+    "interests": ["helping", "discussion/exploration", "reading/writing/english"]
+  },
+  {
+    "code": "76088",
+    "name": "Discrimination and the Law",
+    "credits": 6,
+    "availability": ["autumn"],
+    "requisites": ["70616"],
+    "antirequisites": [],
+    "mincp": 0,
+    "interests": ["helping", "discussion", "exploration", "reading/writing", "english"]
+  },
+  {
+    "code": "76052",
+    "name": "Dispute Resolution Advocacy",
+    "credits": 6,
+    "availability": ["autumn", "spring"],
+    "requisites": [["70104", "70517"]],
+    "antirequisites": [],
+    "mincp": 0,
+    "interests": ["helping", "analytical", "discussion", "english", "reading/writing"]
+  },
+  {
+    "code": "76105",
+    "name": "Disruptive Technologies and the Law",
+    "credits": 6,
+    "availability": ["autumn"],
+    "requisites": ["70102", "70120"],
+    "antirequisites": [],
+    "mincp": 0,
+    "interests": ["technology", "exploration", "analytical", "discussion", "science", "programming"]
+  },
+  {
+    "code": "76093",
+    "name": "Elder Law",
+    "credits": 6,
+    "availability": ["autumn"],
+    "requisites": ["70102", "70120"],
+    "antirequisites": [],
+    "mincp": 0,
+    "interests": ["helping", "discussion", "analytical", "investigation", "exploration", "history"]
+  },
+  {
+    "code": "76024",
+    "name": "Environmental Law",
+    "credits": 6,
+    "availability": ["autumn"],
+    "requisites": [["70616", "70311"]],
+    "antirequisites": ["79004", "79035"],
+    "mincp": 0,
+    "interests": ["exploration", "nature", "analytical", "investigation", "discussion", "science"]
+  },
+  {
+    "code": "78042",
+    "name": "Environmental Planning and Development Law",
+    "credits": 6,
+    "availability": ["spring"],
+    "requisites": ["70617"],
+    "antirequisites": [],
+    "mincp": 0,
+    "interests": ["exploration", "nature", "analytical", "investigation", "discussion", "science"]
+  },
+  {
+    "code": "76801",
+    "name": "Exchange Subject 1",
+    "credits": 6,
+    "availability": ["autumn", "spring"],
+    "requisites": ["70517"],
+    "antirequisites": [],
+    "mincp": 0,
+    "interests": ["analytical", "creativity", "discussion"]
+  },
+  {
+    "code": "76802",
+    "name": "Exchange Subject 2",
+    "credits": 6,
+    "availability": [],
+    "requisites": ["70517"],
+    "antirequisites": ["autumn", "spring"],
+    "mincp": 0,
+    "interests": ["analytical", "creativity", "discussion"]
+  },
+  {
+    "code": "76803",
+    "name": "Exchange Subject 3",
+    "credits": 6,
+    "availability": ["autumn", "spring"],
+    "requisites": ["70517"],
+    "antirequisites": [],
+    "mincp": 0,
+    "interests": ["analytical", "creativity", "discussion"]
+  },
+  {
+    "code": "76804",
+    "name": "Exchange Subject 4",
+    "credits": 6,
+    "availability": ["autumn", "spring"],
+    "requisites": ["70517"],
+    "antirequisites": [],
+    "mincp": 0,
+    "interests": ["analytical", "creativity", "discussion"]
+  },
+  {
+    "code": "76516",
+    "name": "Family Law",
+    "credits": 6,
+    "availability": ["autumn", "spring"],
+    "requisites": ["70317c"],
+    "antirequisites": ["78272", "78273"],
+    "mincp": 0,
+    "interests": ["helping", "discussion", "investigation"]
+  },
+  {
+    "code": "76081",
+    "name": "Gender and Law",
+    "credits": 6,
+    "availability": ["spring"],
+    "requisites": [["70120", "70102"], ["70110", ["76006c", "70108c", "76110c"]]],
+    "antirequisites": [],
+    "mincp": 0,
+    "interests": ["discussion", "exploration", "history"]
+  },
+  {
+    "code": "76030",
+    "name": "Genetics and the Law",
+    "credits": 6,
+    "availability": ["spring"],
+    "requisites": ["70311"],
+    "antirequisites": ["78104", "78105"],
+    "mincp": 0,
+    "interests": ["science", "discussion", "investigation"]
+  },
+  {
+    "code": "76109",
+    "name": "History and Theory of International Law",
+    "credits": 6,
+    "availability": ["summer"],
+    "requisites": [["70108", ["70108c", "76006c", "76110c"]], ["70110", ["76006c", "70108c", "76110c"]]],
+    "antirequisites": [],
+    "mincp": 0,
+    "interests": ["history", "discussion", "exploration"]
+  },
+  {
+    "code": "76068",
+    "name": "Indigenous Peoples and the Law",
+    "credits": 6,
+    "availability": ["spring"],
+    "requisites": [["70317", ["70110", ["76006c", "70108c", "76110c"]]]],
+    "antirequisites": [],
+    "mincp": 0,
+    "interests": ["exploration", "history", "discussion"]
+  },
+  {
+    "code": "76115",
+    "name": "Insolvency",
+    "credits": 6,
+    "availability": ["spring"],
+    "requisites": ["70417", "70327"],
+    "antirequisites": [],
+    "mincp": 0,
+    "interests": ["analytical", "investigation", "discussion"]
+  },
+  {
+    "code": "76022",
+    "name": "Insurance Law",
+    "credits": 6,
+    "availability": ["autumn"],
+    "requisites": [["70211", "70311"]],
+    "antirequisites": ["77930", "78196"],
+    "mincp": 0,
+    "interests": ["analytical", "investigation", "discussion"]
+  },
+  {
+    "code": "76056",
+    "name": "Intellectual Property Commercialisation Overview",
+    "credits": 6,
+    "availability": ["spring"],
+    "requisites": ["70327"],
+    "antirequisites": ["79006"],
+    "mincp": 0,
+    "interests": ["creativity", "technology", "analytical"]
+  },
+  {
+    "code": "76521",
+    "name": "Intellectual Property and Traditional Knowledge",
+    "credits": 6,
+    "availability": ["summer"],
+    "requisites": ["70517"],
+    "antirequisites": ["78186", "78187"],
+    "mincp": 0,
+    "interests": ["culture", "history", "creativity"]
+  },
+  {
+    "code": "76084",
+    "name": "Intellectual Property: Copyright and Designs",
+    "credits": 6,
+    "availability": ["spring"],
+    "requisites": ["70327"],
+    "antirequisites": ["78025"],
+    "mincp": 0,
+    "interests": ["creativity", "exploration", "technology"]
+  },
+  {
+    "code": "76085",
+    "name": "Intellectual Property: Trade Marks and Patents",
+    "credits": 6,
+    "availability": ["autumn"],
+    "requisites": ["70327"],
+    "antirequisites": ["78025"],
+    "mincp": 0,
+    "interests": ["creativity", "exploration", "technology"]
+  },
+  {
+    "code": "76903",
+    "name": "International Commercial Transactions",
+    "credits": 6,
+    "availability": ["spring"],
+    "requisites": [["70327", ["70108c", "76006c", "76110c"]], ["70110", ["76006c", "70108c", "76110c"]]],
+    "antirequisites": ["78152", "78153", "79603"],
+    "mincp": 0,
+    "interests": ["analytical", "exploration", "technology"]
+  },
+  {
+    "code": "77794",
+    "name": "International Environmental Law",
+    "credits": 6,
+    "availability": ["autumn"],
+    "requisites": [["70110", ["76006c", "70108c", "76110c"]], "70616"],
+    "antirequisites": ["78155", "78156", "79035"],
+    "mincp": 0,
+    "interests": ["exploration", "science", "nature"]
+  },
+  {
+    "code": "76007",
+    "name": "International Human Rights Law",
+    "credits": 6,
+    "availability": ["spring"],
+    "requisites": ["70616"],
+    "antirequisites": ["78151", "78182"],
+    "mincp": 0,
+    "interests": ["human rights advocacy", "discussion", "exploration"]
+  },
+  {
+    "code": "78016",
+    "name": "International Humanitarian Law",
+    "credits": 6,
+    "availability": ["autumn", "summer"],
+    "requisites": [["70616", ["70110", ["76006c", "70108c", "76110c"]]]],
+    "antirequisites": [],
+    "mincp": 0,
+    "interests": ["discussion", "exploration", "investigation"]
+  },
+  {
+    "code": "76108",
+    "name": "International Law and Cultural Heritage",
+    "credits": 6,
+    "availability": ["summer"],
+    "requisites": [["70108c", ["70110", ["70108c", "76006c", "76110c"]]]],
+    "antirequisites": [],
+    "mincp": 0,
+    "interests": ["history", "exploration", "discussion"]
+  },
+  {
+    "code": "76098",
+    "name": "International Legal Internship",
+    "credits": 6,
+    "availability": ["spring", "summer"],
+    "requisites": ["70617"],
+    "antirequisites": ["94680", "94681"],
+    "mincp": 0,
+    "interests": ["exploration", "discussion", "investigation"]
+  },
+  {
+    "code": "76025",
+    "name": "International Organisations",
+    "credits": 6,
+    "availability": ["spring"],
+    "requisites": [["70108", ["70108", "76110"]], ["70110", ["70108", "76110"]]],
+    "antirequisites": ["78206", "78207"],
+    "mincp": 0,
+    "interests": ["exploration", "discussion", "investigation"]
+  },
+  {
+    "code": "76099",
+    "name": "International and Comparative Study in Law (UG)",
+    "credits": 6,
+    "availability": ["autumn", "spring", "summer"],
+    "requisites": ["70616"],
+    "antirequisites": ["94680", "94681"],
+    "mincp": 0,
+    "interests": ["exploration", "discussion", "analytical"]
+  },
+  {
+    "code": "76009",
+    "name": "Introduction to Chinese Business Law",
+    "credits": 6,
+    "availability": ["spring"],
+    "requisites": [["70327", ["70110", ["76006c", "70108c", "76110c"]]]],
+    "antirequisites": ["78026", "78118"],
+    "mincp": 0,
+    "interests": ["exploration", "analytical", "discussion"]
+  },
+  {
+    "code": "76005",
+    "name": "Islamic Law",
+    "credits": 6,
+    "availability": ["spring"],
+    "requisites": [["70616", ["70110", ["76006c", "70108c", "76110c"]]]],
+    "antirequisites": [],
+    "mincp": 0,
+    "interests": ["discussion", "exploration", "history"]
+  },
+  {
+    "code": "76039",
+    "name": "Jessup International Moot",
+    "credits": 6,
+    "availability": ["summer"],
+    "requisites": [["70120", "70102"]],
+    "antirequisites": [],
+    "mincp": 0,
+    "interests": ["analytical", "creativity", "discussion"]
+  },
+  {
+    "code": "76057",
+    "name": "Judgement and the Rule of Law",
+    "credits": 6,
+    "availability": ["autumn"],
+    "requisites": [["70616", ["70110", ["76006c", "70108c", "76110c"]]]],
+    "antirequisites": [],
+    "mincp": 0,
+    "interests": ["analytical", "discussion", "history"]
+  },
+  {
+    "code": "76008",
+    "name": "Jurisprudence",
+    "credits": 6,
+    "availability": ["autumn", "spring", "summer"],
+    "requisites": [["70311", [["76006c", "70108c", "76110c"], "70110"]]],
+    "antirequisites": [],
+    "mincp": 0,
+    "interests": ["analytical", "discussion", "history"]
+  },
+  {
+    "code": "76114",
+    "name": "Just Tech",
+    "credits": 6,
+    "availability": ["spring"],
+    "requisites": ["70311"],
+    "antirequisites": [],
+    "mincp": 0,
+    "interests": ["technology", "discussion", "analytical"]
+  },
+  {
+    "code": "76015",
+    "name": "Labour Law",
+    "credits": 6,
+    "availability": ["autumn"],
+    "requisites": [["70211", "70311"]],
+    "antirequisites": ["76053", "78246", "79031"],
+    "mincp": 0,
+    "interests": ["helping", "discussion", "exploration"]
+  },
+  {
+    "code": "76902",
+    "name": "Law and Literature",
+    "credits": 6,
+    "availability": ["summer"],
+    "requisites": [["70616", ["70110", ["76006c", "70108c", "76110c"]]]],
+    "antirequisites": ["78210", "78211"],
+    "mincp": 0,
+    "interests": ["reading/writing", "discussion", "exploration"]
+  },
+  {
+    "code": "76038",
+    "name": "Law and Mental Health",
+    "credits": 6,
+    "availability": ["spring"],
+    "requisites": ["70311"],
+    "antirequisites": ["78149", "78150"],
+    "mincp": 0,
+    "interests": ["analytical", "discussion", "helping"]
+  },
+  {
+    "code": "76034",
+    "name": "Law of Slavery and Human Trafficking",
+    "credits": 6,
+    "availability": ["spring"],
+    "requisites": [["70616", ["76110c", "70110"]]],
+    "antirequisites": ["78222", "78223"],
+    "mincp": 0,
+    "interests": ["analytical", "investigation", "discussion"]
+  },
+  {
+    "code": "78008",
+    "name": "Law of the Sea",
+    "credits": 6,
+    "availability": ["spring"],
+    "requisites": [["70616", ["76006c", "70108c", "76110c"], "70110"]],
+    "antirequisites": [],
+    "mincp": 0,
+    "interests": ["exploration", "science", "analytical"]
+  },
+  {
+    "code": "76117",
+    "name": "Legal Reasoning",
+    "credits": 6,
+    "availability": ["spring"],
+    "requisites": ["70311"],
+    "antirequisites": [],
+    "mincp": 0,
+    "interests": ["analytical", "discussion", "reading/writing"]
+  },
+  {
+    "code": "76111",
+    "name": "Limits on Government Power",
+    "credits": 6,
+    "availability": ["spring"],
+    "requisites": [["70311", "70616", "70617"]],
+    "antirequisites": [],
+    "mincp": 0,
+    "interests": ["analytical", "history", "discussion"]
+  },
+  {
+    "code": "76097",
+    "name": "Local Internship",
+    "credits": 6,
+    "availability": ["autumn", "spring"],
+    "requisites": ["70617"],
+    "antirequisites": ["78292", "94680", "94681"],
+    "mincp": 0,
+    "interests": ["investigation", "helping", "analytical"]
+  },
+  {
+    "code": "76063",
+    "name": "Media Law",
+    "credits": 6,
+    "availability": ["spring"],
+    "requisites": ["70616"],
+    "antirequisites": ["77722", "78165", "78166"],
+    "mincp": 0,
+    "interests": ["analytical", "reading/writing", "discussion"]
+  },
+  {
+    "code": "76019",
+    "name": "Media and Digital Platform Regulation",
+    "credits": 6,
+    "availability": ["summer"],
+    "requisites": ["70616"],
+    "antirequisites": ["78178", "78179"],
+    "mincp": 0,
+    "interests": ["analytical", "technology", "discussion"]
+  },
+  {
+    "code": "76045",
+    "name": "Medicine and Law",
+    "credits": 6,
+    "availability": ["spring", "summer"],
+    "requisites": [["70311", "70617"]],
+    "antirequisites": ["77734", "78148"],
+    "mincp": 0,
+    "interests": ["analytical", "nutrition/health", "discussion"]
+  },
+  {
+    "code": "76900",
+    "name": "Moot",
+    "credits": 6,
+    "availability": ["autumn", "spring", "summer"],
+    "requisites": ["70120", "70102"],
+    "antirequisites": [],
+    "mincp": 0,
+    "interests": ["analytical", "discussion", "creativity"]
+  },
+  {
+    "code": "76094",
+    "name": "Oxford International Intellectual Property Moot",
+    "credits": 6,
+    "availability": ["autumn"],
+    "requisites": ["70120", "70102"],
+    "antirequisites": [],
+    "mincp": 0,
+    "interests": ["analytical", "creativity", "discussion"]
+  },
+  {
+  "code": "76116",
+  "name": "Personal Injury Law in Practice",
+  "credits": 6,
+  "availability": ["spring"],
+  "requisites": [],
+  "mincp": 0,
+  "interests": ["investigation", "helping", "analytical"]
+},
+{
+  "code": "76904",
+  "name": "Price International Media Law Moot",
+  "credits": 6,
+  "availability": ["autumn"],
+  "requisites": ["70120", "70102"],
+  "antirequisites": [],
+  "mincp": 0,
+  "interests": ["creativity", "discussion", "english"]
+},
+{
+  "code": "76089",
+  "name": "Privacy and Surveillance Law",
+  "credits": 6,
+  "availability": ["summer"],
+  "requisites": ["70616"],
+  "antirequisites": ["78248", "78249"],
+  "mincp": 0,
+  "interests": ["analytical", "technology", "investigation"]
+},
+{
+  "code": "78013",
+  "name": "Refugee Law and Practice",
+  "credits": 6,
+  "availability": ["spring"],
+  "requisites": ["70616c", "70617c"],
+  "antirequisites": ["78285"],
+  "mincp": 0,
+  "interests": ["helping", "discussion", "exploration"]
+},
+{
+  "code": "76113",
+  "name": "Regulating Technologies",
+  "credits": 6,
+  "availability": ["spring"],
+  "requisites": ["70102"],
+  "antirequisites": [],
+  "mincp": 0,
+  "interests": ["technology", "analytical", "discussion"]
+},
+{
+  "code": "76090",
+  "name": "Research Methodology",
+  "credits": 6,
+  "availability": ["spring"],
+  "requisites": ["71116c"],
+  "antirequisites": [],
+  "mincp": 0,
+  "interests": ["analytical", "reading/writing", "exploration"]
+},
+{
+  "code": "76040",
+  "name": "Research Thesis",
+  "credits": 6,
+  "availability": ["spring"],
+  "requisites": [["71116", ["70120", "70102"]], "76090"],
+  "antirequisites": ["77740", "78102"],
+  "mincp": 0,
+  "interests": ["analytical", "reading/writing", "investigation"]
+},
+{
+  "code": "76212",
+  "name": "Revenue Law",
+  "credits": 6,
+  "availability": ["autumn"],
+  "requisites": [["70417", "70617"], "70327"],
+  "antirequisites": ["79017"],
+  "mincp": 0,
+  "interests": ["analytical", "discussion", "reading/writing"]
+},
+{
+  "code": "76002",
+  "name": "Sports Law",
+  "credits": 6,
+  "availability": ["autumn", "summer"],
+  "requisites": [["70211", "70311"]],
+  "antirequisites": [],
+  "mincp": 0,
+  "interests": ["analytical", "discussion", "exploration"]
+},
+{
+    "code": "76095",
+    "name": "Strategic Litigation Clinic",
+    "credits": 6,
+    "availability": ["summer"],
+    "requisites": ["70104"],
+    "antirequisites": ["78290"],
+    "mincp": 0,
+    "interests": ["analytical", "creativity", "investigation"]
+  },
+  {
+    "code": "76517",
+    "name": "Succession",
+    "credits": 6,
+    "availability": ["autumn"],
+    "requisites": ["70517"],
+    "antirequisites": [],
+    "mincp": 0,
+    "interests": ["analytical", "creativity", "history"]
+  },
+  {
+    "code": "76106",
+    "name": "Technology Law, Policy and Ethics (Capstone 1)",
+    "credits": 6,
+    "availability": ["autumn"],
+    "requisites": [["C10124"], ["STM90832", "STM90691"]],
+    "mincp": 120,
+    "antirequisites": [],
+    "interests": ["analytical", "creativity", "technology"]
+  },
+  {
+    "code": "78039",
+    "name": "Wickedness and Vice",
+    "credits": 6,
+    "availability": ["autumn"],
+    "requisites": [["70311", ["76006c", "70108c", "76110c"]], "70110"],
+    "antirequisites": [],
+    "mincp": 0,
+    "interests": ["exploration", "reading/writing", "discussion"]
+  },
+  {
+    "code": "76087",
+    "name": "Workplace Health and Safety Law",
+    "credits": 6,
+    "availability": ["spring"],
+    "requisites": [["70211", "70311"]],
+    "antirequisites": [],
+    "mincp": 0,
+    "interests": ["nutrition/health", "analytical", "investigation"]
+  },
+  {
+    "code": "76013",
+    "name": "World Trade Law",
+    "credits": 6,
+    "availability": ["autumn"],
+    "requisites": [["70327", ["76006c", "70108c", "76110c"]], "70110"],
+    "antirequisites": ["77716"],
+    "mincp": 0,
+    "interests": ["analytical", "discussion", "investigation"]
+  }
+]
+
+
+
+// Faculty of Health: -----------------------------------------------------------------------------
+[
+    {
+    "code": "92470",
+    "name": "Introduction to Specialty Practice: Aboriginal Community Engagement",
+    "credits": 6,
+    "availability": ["autumn"],
+    "requisites": [
+        ["92438", "92450", "92024", "92322", "92454", "93211", "93225"], ["93207", "93200"],
+        ["93224", "93210"], ["93214c", "93228c"]],
+    "antirequisites": [],
+    "mincp": 0,
+    "interests": ["helping", "talking", "nutrition", "health"]
+    },
+
+    {
+    "code": "92471",
+    "name": "Introduction to Specialty Practice: Care of the Older Person",
+    "credits": 6,
+    "availability": ["spring"],
+    "requisites":  [
+        ["92438", "92450", "92024", "92322", "92454", "93211", "93225"], ["93207", "93200"],
+        ["93224", "93210"], ["93214c", "93228c"]],
+    "antirequisites": [],
+    "mincp": 0,
+    "interests": ["helping", "talking", "nutrition", "health"]
+    },
+
+    {
+    "code": "92472",
+    "name": "Introduction to Specialty Practice: Community Health Nursing",
+    "credits": 6,
+    "availability": [],
+    "requisites":  [
+        ["92438", "92450", "92024", "92322", "92454", "93211", "93225"], ["93207", "93200"],
+        ["93224", "93210"], ["93214c", "93228c"]],
+    "antirequisites": [],
+    "mincp": 0,
+    "interests": ["analytical", "nutrition", "health", "reading/writing"]
+    },
+
+    {
+    "code": "92473",
+    "name": "Introduction to Specialty Practice: Critical Care Nursing",
+    "credits": 6,
+    "availability": ["spring"],
+    "requisites":  [
+        ["92438", "92450", "92024", "92322", "92454", "93211", "93225"], ["93207", "93200"],
+        ["93224", "93210"], ["93214c", "93228c"]],
+    "antirequisites": [],
+    "mincp": 0,
+    "interests": ["nutrition", "health", "discussion", "talking"]
+    },
+
+    {
+    "code": "92474",
+    "name": "Introduction to Specialty Practice: Child and Family Health Nursing",
+    "credits": 6,
+    "availability": [],
+    "requisites": [
+        ["92438", "92450", "92024", "92322", "92454", "93211", "93225"], ["93207", "93200"],
+        ["93224", "93210"], ["93214c", "93228c"]],
+    "antirequisites": [],
+    "mincp": 0,
+    "interests": ["nutrition", "health", "talking", "reading/writing"]
+    },
+
+    {
+    "code": "92475",
+    "name": "Introduction to Specialty Practice: Global Health",
+    "credits": 6,
+    "availability": ["autumn"],
+    "requisites":  [
+        ["92438", "92450", "92024", "92322", "92454", "93211", "93225"], ["93207", "93200"],
+        ["93224", "93210"], ["93214c", "93228c"]],
+    "antirequisites": [],
+    "mincp": 0,
+    "interests": ["nutrition", "health", "helping", "exploration"]
+    },
+
+    {
+    "code": "92476",
+    "name": "Introduction to Specialty Practice: Mental Health Nursing",
+    "credits": 6,
+    "availability": ["autumn"],
+    "requisites": [
+        ["92438", "92450", "92024", "92322", "92454", "93211", "93225"], ["93207", "93200"],
+        ["93224", "93210"], ["93214c", "93228c"]],
+    "antirequisites": [],
+    "mincp": 0,
+    "interests": ["nutrition", "health", "reading/writing", "helping"]
+    },
+
+    {
+    "code": "92477",
+    "name": "Introduction to Specialty Practice: Paediatric Nursing",
+    "credits": 6,
+    "availability": [],
+    "requisites":  [
+        ["92438", "92450", "92024", "92322", "92454", "93211", "93225"], ["93207", "93200"],
+        ["93224", "93210"], ["93214c", "93228c"]],
+    "antirequisites": [],
+    "mincp": 0,
+    "interests": ["nutrition", "health", "analytical", "helping"]
+    },
+
+    {
+    "code": "92478",
+    "name": "Introduction to Specialty Practice: Palliative Care",
+    "credits": 6,
+    "availability": [],
+    "requisites":  [
+        ["92438", "92450", "92024", "92322", "92454", "93211", "93225"], ["93207", "93200"],
+        ["93224", "93210"], ["93214c", "93228c"]],
+    "antirequisites": [],
+    "mincp": 0,
+    "interests": ["nutrition", "health", "reading/writing", "analytical"]
+    },
+
+    {
+    "code": "92479",
+    "name": "Introduction to Specialty Practice: Perioperative Nursing",
+    "credits": 6,
+    "availability": ["autumn"],
+    "requisites":  [
+        ["92438", "92450", "92024", "92322", "92454", "93211", "93225"], ["93207", "93200"],
+        ["93224", "93210"], ["93214c", "93228c"]],
+    "antirequisites": [],
+    "mincp": 0,
+    "interests": ["nutrition", "health", "discussion", "reading/writing"]
+    },
+
+    {
+    "code": "92480",
+    "name": "Introduction to Specialty Practice: Reproductive, Maternal and Child Health",
+    "credits": 6,
+    "availability": [],
+    "requisites":  [
+        ["92438", "92450", "92024", "92322", "92454", "93211", "93225"], ["93207", "93200"],
+        ["93224", "93210"], ["93214c", "93228c"]],
+    "antirequisites": [],
+    "mincp": 0,
+    "interests": ["nutrition", "health", "reading/writing", "history"]
+    },
+
+    {
+    "code": "92481",
+    "name": "Introduction to Specialty Practice: Drug and Alcohol Nursing",
+    "credits": 6,
+    "availability": [],
+    "requisites":  [
+        ["92438", "92450", "92024", "92322", "92454", "93211", "93225"], ["93207", "93200"],
+        ["93224", "93210"], ["93214c", "93228c"]],
+    "antirequisites": [],
+    "mincp": 0,
+    "interests": ["nutrition", "health", "reading/writing", "helping"]
+    },
+    {
+    "code": "92482",
+    "name": "Introduction to Specialty Practice: Women's Health",
+    "credits": 6,
+    "availability": ["autumn"],
+    "requisites":  [
+        ["92438", "92450", "92024", "92322", "92454", "93211", "93225"], ["93207", "93200"],
+        ["93224", "93210"], ["93214c", "93228c"]],
+    "antirequisites": [],
+    "mincp": 0,
+    "interests": ["nutrition", "health", "discussion", "history"]
+    },
+    {
+    "code": "013992",
+    "name": "Aboriginal Sydney Now",
+    "credits": 6,
+    "availability": ["spring"],
+    "requisites":  [],
+    "antirequisites": ["013993"],
+    "mincp": 0,
+    "interests": ["analytical", "discussion", "history"]
+    },
+    {
+    "code": "95742",
+    "name": "Communication and Technology",
+    "credits": 6,
+    "availability": ["spring"],
+    "requisites":  [],
+    "antirequisites": [],
+    "mincp": 48,
+    "interests": ["technology", "creativity", "discussion"]
+    },
+
+    {
+    "code": "95744",
+    "name": "Intervention Design in Health Promotion",
+    "credits": 6,
+    "availability": [],
+    "requisites":  [
+        ["95740"]],
+    "antirequisites": [],
+    "mincp": 60,
+    "interests": ["talking", "discussion", "history"]
+    },
+
+    {
+    "code": "95745",
+    "name": "First Nations Health and Wellbeing",
+    "credits": 6,
+    "availability": [],
+    "requisites":  [["95735"]],
+    "antirequisites": [],
+    "mincp": 60,
+    "interests": ["nutrition", "health", "discussion", "history"]
+    },
+
+    {
+    "code": "95751",
+    "name": "Global Sexual Health",
+    "credits": 6,
+    "availability": [],
+    "requisites":  [],
+    "antirequisites": [],
+    "mincp": 48,
+    "interests": ["nutrition", "health", "discussion", "history"]
+    },
+
+    {
+    "code": "95741",
+    "name": "Health Promotion in Aboriginal and Torres Strait Islander Contexts",
+    "credits": 6,
+    "availability": [],
+    "requisites":  [["95734"]],
+    "antirequisites": [],
+    "mincp": 60,
+    "interests": ["talking", "nutrition", "health", "history"]
+    },
+
+    {
+    "code": "95732",
+    "name": "Introduction to Digital Health",
+    "credits": 6,
+    "availability": [],
+    "requisites":  [],
+    "antirequisites": [],
+    "mincp": 24,
+    "interests": ["nutrition", "health", "discussion", "technology"]
+    },
+
+    {
+    "code": "21510",
+    "name": "Introduction to Strategy",
+    "credits": 6,
+    "availability": [],
+    "requisites":  [],
+    "antirequisites": ["21632"],
+    "mincp": 0,
+    "interests": ["talking", "discussion", "technology"]
+    },
+    {
+    "code": "21212",
+    "name": "People and Organisations",
+    "credits": 6,
+    "availability": [],
+    "requisites":  [
+    ],
+    "antirequisites": ["21129", "21130"],
+    "mincp": 0,
+    "interests": ["talking", "discussion", "reading/writing"]
+    }
+]
+
+
+
+// Faculty of Communication -----------------------------------------------------------------------
+
+[
+    {
+        "code": "013992",
+        "name": "Aboriginal Sydney Now",
+        "credits": 6,
+        "availability": ["autumn", "spring"],
+        "requisites": [],
+        "antirequisites": ["013993"],
+        "mincp": 0,
+        "interests": ["discussion", "history", "nature"]
+    },
+    {
+        "code": "59720",
+        "name": "Academic English: Communication Fundamentals",
+        "credits": 6,
+        "availability": ["autumn", "spring"],
+        "requisites": [],
+        "antirequisites": [],
+        "mincp": 0,
+        "interests": ["english", "reading/writing", "discussion"]
+    },
+    {
+        "code": "36200",
+        "name": "Arguments, Evidence and Intuition",
+        "credits": 6,
+        "availability": ["autumn", "spring", "summer"],
+        "requisites": [],
+        "antirequisites": [],
+        "mincp": 0,
+        "interests": ["analytical", "discussion", "investigation"]
+    },
+    {
+        "code": "52710",
+        "name": "Climate Justice and Climate Policy",
+        "credits": 6,
+        "availability": ["autumn"],
+        "requisites": [],
+        "antirequisites": ["54006"],
+        "mincp": 24,
+        "interests": ["analytical", "discussion", "investigation"]
+    },
+    {
+        "code": "52713",
+        "name": "Communicating Health and Science",
+        "credits": 6,
+        "availability": ["autumn"],
+        "requisites": [],
+        "antirequisites": ["54090"],
+        "mincp": 0,
+        "interests": ["science", "english", "communication"]
+    },
+    {
+        "code": "52672",
+        "name": "Comparing Indigenous Histories and Politics",
+        "credits": 6,
+        "availability": ["spring"],
+        "requisites": [],
+        "antirequisites": ["54085"],
+        "mincp": 0,
+        "interests": ["history", "politics", "discussion"]
+    },
+    {
+        "code": "52662",
+        "name": "Creative Advertising",
+        "credits": 6,
+        "availability": ["spring"],
+        "requisites": [],
+        "antirequisites": ["54046", "58118", "59330"],
+        "mincp": 0,
+        "interests": ["creativity", "communication", "marketing"]
+    },
+    {
+        "code": "52716",
+        "name": "Design Thinking for Social Innovation",
+        "credits": 6,
+        "availability": ["autumn"],
+        "requisites": [],
+        "antirequisites": ["54096"],
+        "mincp": 0,
+        "interests": ["creativity", "problem-solving", "empathy", "collaboration"]
+    },
+    {
+        "code": "59355",
+        "name": "Developing Academic Writing and Speaking Skills",
+        "credits": 6,
+        "availability": [],
+        "requisites": [],
+        "antirequisites": [],
+        "mincp": 0,
+        "interests": ["english", "communication", "critical thinking", "analytical"]
+    },
+    {
+        "code": "52717",
+        "name": "Digital Interactive Documentary",
+        "credits": 6,
+        "availability": [],
+        "requisites": [],
+        "antirequisites": [],
+        "mincp": 0,
+        "interests": ["creativity", "technology", "investigation"]
+    },
+    {
+        "code": "52680",
+        "name": "Digital Media Industries",
+        "credits": 6,
+        "availability": ["autumn"],
+        "requisites": [],
+        "antirequisites": ["54005"],
+        "mincp": 0,
+        "interests": ["technology", "business", "creativity"]
+    },
+    {
+        "code": "52682",
+        "name": "Digital Media Metrics",
+        "credits": 6,
+        "availability": ["spring"],
+        "requisites": [],
+        "antirequisites": ["54061", "58337"],
+        "mincp": 0,
+        "interests": ["analytical", "technology", "problem-solving"]
+    },
+    {
+        "code": "52660",
+        "name": "Emergent Public Relations",
+        "credits": 6,
+        "availability": ["autumn"],
+        "requisites": [],
+        "antirequisites": ["54042", "58117"],
+        "mincp": 0,
+        "interests": ["analytical", "creativity", "problem-solving"]
+    },
+    {
+        "code": "52715",
+        "name": "Environmental Communication",
+        "credits": 6,
+        "availability": ["spring", "summer"],
+        "requisites": [],
+        "antirequisites": [],
+        "mincp": 30,
+        "interests": ["communication", "science", "nature"]
+    },
+    {
+        "code": "52712",
+        "name": "Global Cinema",
+        "credits": 6,
+        "availability": ["spring", "summer"],
+        "requisites": [],
+        "antirequisites": ["54081", "58323"],
+        "mincp": 0,
+        "interests": ["creativity", "history", "exploration"]
+    },
+    {
+        "code": "52699",
+        "name": "Government and Political Communication",
+        "credits": 6,
+        "availability": ["autumn"],
+        "requisites": [],
+        "antirequisites": ["54095"],
+        "mincp": 64,
+        "interests": ["analytical", "discussion", "history"]
+    },
+    {
+        "code": "52671",
+        "name": "Histories of the Present",
+        "credits": 6,
+        "availability": ["autumn", "spring"],
+        "requisites": [],
+        "antirequisites": ["54082"],
+        "mincp": 0,
+        "interests": ["history", "news", "analytical"]
+    },
+    {
+        "code": "52692",
+        "name": "Imagining the Real",
+        "credits": 6,
+        "availability": ["spring"],
+        "requisites": [],
+        "antirequisites": ["54071", "58216"],
+        "mincp": 0,
+        "interests": ["creativity", "english", "discussion"]
+    },
+    {
+        "code": "99200",
+        "name": "Intercultural Communication",
+        "credits": 6,
+        "availability": ["autumn", "spring"],
+        "requisites": [],
+        "antirequisites": ["99218"],
+        "mincp": 0,
+        "interests": ["discussion", "exploration", "creativity"]
+    },
+    {
+        "code": "97901",
+        "name": "International Internship",
+        "credits": 6,
+        "availability": ["spring", "summer"],
+        "requisites": [],
+        "antirequisites": ["94680", "94681", "97900"],
+        "mincp": 0,
+        "interests": ["exploration", "english", "cross-cultural", "communication"]
+    },
+    {
+        "code": "52703",
+        "name": "Media Influence",
+        "credits": 6,
+        "availability": ["spring"],
+        "requisites": [],
+        "antirequisites": ["54080"],
+        "mincp": 0,
+        "interests": ["discussion", "analytical", "reading/writing"]
+    },
+    {
+        "code": "52640",
+        "name": "Media Law and Ethics",
+        "credits": 6,
+        "availability": ["autumn"],
+        "requisites": [],
+        "antirequisites": [],
+        "mincp": 0,
+        "interests": ["analytical", "discussion", "english"]
+    },
+    {
+        "code": "52642",
+        "name": "Multimedia Features",
+        "credits": 6,
+        "availability": ["autumn", "spring"],
+        "requisites": [],
+        "antirequisites": ["4021", "58210"],
+        "mincp": 0,
+        "interests": ["creativity", "technology", "english"]
+    },
+    {
+        "code": "52690",
+        "name": "Narrative in Theory and Practice",
+        "credits": 6,
+        "availability": ["autumn"],
+        "requisites": [],
+        "antirequisites": ["54072", "58330"],
+        "mincp": 0,
+        "interests": ["creativity", "english", "reading/writing"]
+    },
+    {
+        "code": "52641",
+        "name": "News Now",
+        "credits": 6,
+        "availability": ["autumn", "spring"],
+        "requisites": [],
+        "antirequisites": ["54020", "58111"],
+        "mincp": 0,
+        "interests": ["news", "discussion", "english"]
+    },
+    {
+        "code": "52714",
+        "name": "Professional Internship",
+        "credits": 6,
+        "availability": ["autumn", "spring", "summer"],
+        "requisites": [],
+        "antirequisites": ["50260", "54091", "58314", "58999", "94680", "94681"],
+        "mincp": 72,
+        "interests": ["exploration", "helping", "technology"]
+    },
+    {
+        "code": "52670",
+        "name": "Self and Society",
+        "credits": 6,
+        "availability": ["autumn"],
+        "requisites": [],
+        "antirequisites": ["54050", "58122"],
+        "mincp": 0,
+        "interests": ["exploration", "social", "reading/writing"]
+    },
+    {
+        "code": "52661",
+        "name": "Strategic Communication in Society",
+        "credits": 6,
+        "availability": ["autumn", "spring"],
+        "requisites": [],
+        "antirequisites": ["54040", "58116"],
+        "mincp": 0,
+        "interests": ["creativity", "discussion", "social media"]
+    },
+    {
+        "code": "52718",
+        "name": "The Social Life of Technology",
+        "credits": 6,
+        "availability": ["spring"],
+        "requisites": [],
+        "antirequisites": [],
+        "mincp": 0,
+        "interests": ["technology", "discussion", "science"]
+    },
+    {
+        "code": "52681",
+        "name": "Understanding Digital Audiences",
+        "credits": 6,
+        "availability": ["autumn", "spring"],
+        "requisites": [],
+        "antirequisites": ["54060", "58337"],
+        "mincp": 0,
+        "interests": ["social media", "technology", "analytical", "discussion"]
+    },
+    {
+        "code": "52691",
+        "name": "Writing and Editing Foundations",
+        "credits": 6,
+        "availability": ["autumn", "spring"],
+        "requisites": [],
+        "antirequisites": ["54070", "58121"],
+        "mincp": 0,
+        "interests": ["reading/writing", "english", "creativity"]
+    },
+    {
+        "code": "013993",
+        "name": "Aboriginal Sydney Now",
+        "credits": 8,
+        "availability": ["February", "spring"],
+        "requisites": [],
+        "antirequisites": ["013992"],
+        "mincp": 0,
+        "interests": ["discussion", "history", "nature"]
+    },
+    {
+        "code": "59721",
+        "name": "Academic English: Communication Fundamentals",
+        "credits": 8,
+        "availability": ["autumn", "spring"],
+        "requisites": [],
+        "antirequisites": [],
+        "mincp": 0,
+        "interests": ["english", "reading/writing", "discussion"]
+    },
+    {
+        "code": "36201",
+        "name": "Arguments, Evidence and Intuition",
+        "credits": 8,
+        "availability": ["autumn", "spring", "summer"],
+        "requisites": [],
+        "antirequisites": [],
+        "mincp": 0,
+        "interests": ["analytical", "discussion", "investigation"]
+    },
+    {
+        "code": "54098",
+        "name": "Becoming Australia",
+        "credits": 8,
+        "availability": ["autumn", "summer"],
+        "requisites": [],
+        "antirequisites": ["58224", "58327"],
+        "mincp": 32,
+        "interests": ["history", "exploration", "discussion", "english"]
+    },
+    {
+        "code": "97611",
+        "name": "Contemporary China",
+        "credits": 8,
+        "availability": ["spring"],
+        "requisites": [],
+        "antirequisites": ["979510"],
+        "mincp": 64,
+        "interests": ["exploration", "discussion", "news", "history"]
+    },
+    {
+        "code": "976411",
+        "name": "Contemporary France",
+        "credits": 8,
+        "availability": ["spring"],
+        "requisites": [],
+        "antirequisites": ["979512"],
+        "mincp": 64,
+        "interests": ["exploration", "discussion", "english", "french", "history"]
+    },
+    {
+        "code": "976421",
+        "name": "Contemporary Germany",
+        "credits": 8,
+        "availability": ["spring"],
+        "requisites": [],
+        "antirequisites": ["979514"],
+        "mincp": 64,
+        "interests": ["exploration", "discussion", "english", "german", "history"]
+    },
+    {
+        "code": "976431",
+        "name": "Contemporary Italy",
+        "credits": 8,
+        "availability": ["spring"],
+        "requisites": [],
+        "antirequisites": ["979515"],
+        "mincp": 64,
+        "interests": ["exploration", "discussion", "english", "italian", "history"]
+    },
+    {
+        "code": "976211",
+        "name": "Contemporary Japan",
+        "credits": 8,
+        "availability": ["spring"],
+        "requisites": [],
+        "antirequisites": ["979511"],
+        "mincp": 64,
+        "interests": ["exploration", "discussion", "english/japan", "history"]
+    },
+    {
+        "code": "976451",
+        "name": "Contemporary Spain",
+        "credits": 8,
+        "availability": ["spring"],
+        "requisites": [],
+        "antirequisites": ["979513"],
+        "mincp": 64,
+        "interests": ["exploration", "discussion", "english/spain", "history"]
+    },
+    {
+        "code": "54092",
+        "name": "Culture: Plugged and Unplugged",
+        "credits": 8,
+        "availability": ["autumn", "spring", "summer"],
+        "requisites": [],
+        "antirequisites": ["58217"],
+        "mincp": 32,
+        "interests": ["exploration", "creativity", "discussion", "reading/writing", "history"]
+    },
+    {
+        "code": "59356",
+        "name": "Developing Academic Writing and Speaking Skills",
+        "credits": 8,
+        "availability": [],
+        "requisites": [""],
+        "antirequisites": [],
+        "mincp": 0,
+        "interests": ["reading/writing", "english", "discussion", "exploration"]
+    },
+    {
+        "code": "54094",
+        "name": "Environmental Communication",
+        "credits": 8,
+        "availability": ["spring", "summer"],
+        "requisites": [],
+        "antirequisites": ["52715", "58328"],
+        "mincp": 32,
+        "interests": ["exploration", "creativity", "discussion", "social media"]
+    },
+    {
+        "code": "54081",
+        "name": "Global Cinema",
+        "credits": 8,
+        "availability": ["spring", "summer"],
+        "requisites": [],
+        "antirequisites": ["52712", "58323"],
+        "mincp": 24,
+        "interests": ["exploration", "creativity", "discussion", "history"]
+    },
+    {
+        "code": "977912",
+        "name": "In-country Contemporary Society Study",
+        "credits": 8,
+        "availability": ["spring", "summer"],
+        "requisites": [],
+        "antirequisites": ["977917"],
+        "mincp": 0,
+        "interests": ["exploration", "discussion", "english", "language", "helping"]
+    },
+    {
+        "code": "977913",
+        "name": "In-country Language and Culture Study",
+        "credits": 8,
+        "availability": ["spring", "summer"],
+        "requisites": [],
+        "antirequisites": ["977918"],
+        "mincp": 0,
+        "interests": ["exploration", "discussion", "english", "language", "history"]
+    },
+    {
+        "code": "99218",
+        "name": "Intercultural Communication",
+        "credits": 8,
+        "availability": ["autumn", "spring", "summer"],
+        "requisites": ["99200"],
+        "antirequisites": [],
+        "mincp": 0,
+        "interests": ["discussion", "exploration", "english", "social media"]
+    },
+    {
+        "code": "97900",
+        "name": "International Internship",
+        "credits": 8,
+        "availability": ["July", "December"],
+        "requisites": [],
+        "antirequisites": ["94680", "94681", "97901"],
+        "mincp": 0,
+        "interests": ["exploration", "helping", "english", "social media"]
+    },
+    {
+        "code": "54091",
+        "name": "Professional Internship",
+        "credits": 8,
+        "availability": ["autumn", "spring", "summer"],
+        "requisites": [],
+        "antirequisites": ["50260", "52714", "58314", "58999", "94680", "94681"],
+        "mincp": 72,
+        "interests": ["exploration", "helping", "analytical"]
+    },
+    {
+        "code": "54083",
+        "name": "Sexing Power",
+        "credits": 8,
+        "availability": ["spring"],
+        "requisites": [],
+        "antirequisites": ["58318"],
+        "mincp": 32,
+        "interests": ["discussion", "exploration", "creativity", "history"]
+    },
+    {
+        "code": "54004",
+        "name": "The Future of Work",
+        "credits": 8,
+        "availability": ["autumn", "spring"],
+        "requisites": [],
+        "antirequisites": ["94680", "94681"],
+        "mincp": 96,
+        "interests": ["exploration", "discussion", "technology", "creativity", "programming"]
+    }
+]
+
+
+
+// Faculty of Business ----------------------------------------------------------------------------
+// Major in Finance -------------------------------------------------------------------------------
+
+[
+    {
+      "code": "25557",
+      "name": "Corporate Finance: Theory and Practice",
+      "credits": 6,
+      "availability": ["autumn", "spring"],
+      "requisites": ["25300"],
+      "antirequisites": [],
+      "mincp": 0,
+      "interests": ["maths", "analytical", "science"]
+    },
+    {
+      "code": "25624",
+      "name": "Financial Metrics for Decision Making",
+      "credits": 6,
+      "availability": ["autumn", "spring"],
+      "requisites": ["25300"],
+      "antirequisites": ["25622"],
+      "mincp": 0,
+      "interests": ["analytical", "maths", "science"]
+    },
+    {
+      "code": "25300",
+      "name": "Fundamentals of Business Finance",
+      "credits": 6,
+      "availability": ["autumn", "spring"],
+      "requisites": [],
+      "antirequisites": [],
+      "mincp": 0,
+      "interests": ["maths", "analytical", "discussion"]
+    },
+    {
+      "code": "25556",
+      "name": "The Financial System",
+      "credits": 6,
+      "availability": ["autumn", "spring"],
+      "requisites": ["25300"],
+      "antirequisites": [],
+      "mincp": 0,
+      "interests": ["analytical", "maths", "exploration"]
+    },
+    {
+      "code": "25579",
+      "name": "Applied Portfolio Management",
+      "credits": 6,
+      "availability": ["autumn", "spring"],
+      "requisites": ["25503"],
+      "antirequisites": [],
+      "mincp": 0,
+      "interests": ["analytical", "maths", "creativity"]
+    },
+    {
+      "code": "25574",
+      "name": "Commercial Bank Management",
+      "credits": 6,
+      "availability": ["autumn", "spring"],
+      "requisites": ["25556"],
+      "antirequisites": [],
+      "mincp": 0,
+      "interests": ["analytical", "maths", "discussion"]
+    },
+    {
+      "code": "25620",
+      "name": "Derivative Securities",
+      "credits": 6,
+      "availability": ["autumn", "spring"],
+      "requisites": ["25556"],
+      "antirequisites": [],
+      "mincp": 0,
+      "interests": ["maths", "analytical", "science"]
+    },
+    {
+      "code": "25602",
+      "name": "Ethics in Finance",
+      "credits": 6,
+      "availability": ["autumn", "spring"],
+      "requisites": ["25300"],
+      "antirequisites": [],
+      "mincp": 0,
+      "interests": ["ethics", "discussion", "analytical"]
+    },
+    {
+      "code": "25503",
+      "name": "Investment Analysis",
+      "credits": 6,
+      "availability": ["autumn", "spring"],
+      "requisites": ["25300"],
+      "antirequisites": [],
+      "mincp": 0,
+      "interests": ["analytical", "maths", "discussion"]
+    },
+    {
+      "code": "25575",
+      "name": "Investment Banking",
+      "credits": 6,
+      "availability": ["autumn", "spring"],
+      "requisites": ["25556"],
+      "antirequisites": [],
+      "mincp": 0,
+      "interests": ["analytical", "maths", "discussion"]
+    },
+    {
+      "code": "25500",
+      "name": "Strategic Investment Management",
+      "credits": 6,
+      "availability": ["autumn", "spring"],
+      "requisites": ["25503"],
+      "antirequisites": [],
+      "mincp": 0,
+      "interests": ["analytical", "maths", "discussion"]
+    },
+    {
+      "code": "79014",
+      "name": "Applied Company Law",
+      "credits": 6,
+      "availability": ["autumn", "spring"],
+      "requisites": [],
+      "antirequisites": ["70417"],
+      "mincp": 0,
+      "interests": ["analytical", "discussion", "creativity"]
+    },
+    {
+      "code": "25999",
+      "name": "Business Internship",
+      "credits": 6,
+      "availability": ["autumn", "spring"],
+      "requisites": [],
+      "antirequisites": [
+        "21999",
+        "22999",
+        "23999",
+        "24999",
+        "94680",
+        "94681"
+      ],
+      "mincp": 48,
+      "interests": ["exploration", "discussion", "helping"]
+    },
+    {
+      "code": "21644",
+      "name": "Law and Ethics for Managers",
+      "credits": 6,
+      "availability": ["autumn", "spring"],
+      "requisites": [],
+      "antirequisites": ["21665", "27628"],
+      "mincp": 0,
+      "interests": ["ethics", "discussion", "analytical"]
+    },
+    {
+      "code": "25627",
+      "name": "Responsible Finance",
+      "credits": 6,
+      "availability": ["autumn", "spring"],
+      "requisites": ["25556"],
+      "antirequisite": [],
+      "mincp": 0,
+      "interests": ["ethics", "discussion", "analytical"]
+    },
+    {
+      "code": "23507",
+      "name": "Time Series Econometrics",
+      "credits": 6,
+      "availability": ["autumn", "spring"],
+      "requisites": ["23571", "26134"],
+      "antirequisite": ["25573"],
+      "mincp": 0,
+      "interests": ["analytical", "maths", "programming"]
+    },
+    {
+      "code": "25626",
+      "name": "Startup Finance",
+      "credits": 6,
+      "availability": ["autumn", "spring"],
+      "requisites": ["25300"],
+      "antirequisites": [],
+      "mincp": 0,
+      "interests": ["analytical", "creativity", "discussion"]
+    }
+]
