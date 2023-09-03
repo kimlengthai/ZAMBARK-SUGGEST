@@ -36,3 +36,6 @@ async def get_subject(faculty: str,
     ]).to_list(length=None)) > 0:
         return JSONResponse(status_code=status.HTTP_200_OK, content=json.loads(json_util.dumps(result)))
     raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail=f"No matching courses found")
+
+if __name__ == "__main__":
+    uvicorn.run("main:app", port=443, log_level="info")
