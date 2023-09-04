@@ -1,16 +1,19 @@
 import json
 import motor.motor_asyncio
+import os
 import uvicorn
 from bson import ObjectId, json_util
-from dotenv import dotenv_values
+from dotenv import load_dotenv
 from fastapi import FastAPI, Body, HTTPException, status, Query
 from fastapi.encoders import jsonable_encoder
 from fastapi.responses import Response, JSONResponse
 from typing import Annotated
 
-config = dotenv_values(".env")
+load_dotenv()
+ATLAS_URI = os.getenv("ATLAS_URI")
+
 app = FastAPI()
-client = motor.motor_asyncio.AsyncIOMotorClient(config["ATLAS_URI"])
+client = motor.motor_asyncio.AsyncIOMotorClient(ATLAS_URI)
 subjects = client["subjects"]
 
 @app.get("/")
