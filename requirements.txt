@@ -1,5 +1,4 @@
 motor
 uvicorn[standard]
 fastapi
-bson
 python-dotenv
