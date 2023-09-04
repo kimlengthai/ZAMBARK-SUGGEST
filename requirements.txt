@@ -1,5 +1,5 @@
 motor
-uvicorn
+uvicorn[standard]
 fastapi
 bson
 typing
