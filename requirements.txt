@@ -1,6 +1,3 @@
 motor
 uvicorn
-bson
-dotenv
 fastapi
-typing
