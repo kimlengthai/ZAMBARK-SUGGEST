@@ -68,7 +68,7 @@ async def get_recommendations(faculty: str,
             }
         }},
         {"$sort": {"matches": -1}}
-    ]).to_list(length=5)) > 0:
+    ]).to_list(length=3)) > 0:
         return JSONResponse(status_code=status.HTTP_200_OK, content=json.loads(json_util.dumps(result)))
     raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail=f"No matching courses found")
 
