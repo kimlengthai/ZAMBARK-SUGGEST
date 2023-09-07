@@ -15,21 +15,23 @@ function getButton(btnName1) {
     interestArray.push(interestText);
 
     console.log(interestArray)
-
-    
 }
 
 
-
-function htmlUpdater(interests) {
-    localStorage.setItem("interests", interests);
-    window.location.href = `${window.location.origin}/CRtest.html`;
+function test(){
+    console.log(12341234)
     console.log(interestArray)
 }
 
+// function htmlUpdater(interests) {
+//     localStorage.setItem("interests", interests);
+//     window.location.href = `${window.location.origin}/CRtest.html`;
+//     console.log(interestArray)
+// }
 
-function nextBtn(){
-    htmlUpdater(interestArray)
-}
+
+// function nextBtn(){
+//     htmlUpdater(interestArray)
+// }
 
 // htmlUpdater() 

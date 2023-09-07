@@ -7,7 +7,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Course Recommendation System</title>
   <link rel="stylesheet" href="getCR.css">
+  <script src="getCR.js"></script>
+  <!-- <script src="index.js"></script> -->
   <script src="https://kit.fontawesome.com/20b352c5e7.js" crossorigin="anonymous"></script>
+  <!-- <script src="./getCR.js"> </script> -->
 </head>
 
 <body>
@@ -40,11 +43,16 @@
   <section id="interests">
     <div class="container">
         <div class="row">
+
+
             <div class="interest">
                 <div class="emoji">🧠</div>
                 <p id="btnName1">Analytical</p>
                 <button class="btn" onclick="getButton('btnName1')">Choose</button>
             </div>
+
+
+
             <div class="interest">
                 <div class="emoji">🎨</div>
                 <p id="btnName2">Creativity</p>
@@ -159,15 +167,6 @@
 
 </section>
 
-<script>
-  function getButton(id) {
-      const interestElement = document.getElementById(id);
-      if (interestElement) {
-          interestElement.closest('.interest').classList.toggle('interest--selected');
-          interestElement.nextElementSibling.classList.toggle('btn--selected');
-      }
-  }
-</script>
 
 </body>
 
