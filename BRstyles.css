@@ -120,7 +120,7 @@ button:active {
 
 
 .checked {
-    color: rgb(201, 132, 3);
+    color: rgb(228, 154, 17);
 }
 
 .logo {
@@ -239,14 +239,14 @@ LANDING
 }
 
 header {
-  height: calc(100vh - 80px);
+  height: calc(65vh - 100px);
 }
 
 .header__container {
   width: 100%;
   max-width: 720px;
   margin: 0 auto;
-  height: 100%;
+  height: 70%;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
