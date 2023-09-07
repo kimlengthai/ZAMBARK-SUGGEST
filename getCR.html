@@ -8,7 +8,6 @@
   <title>Course Recommendation System</title>
   <link rel="stylesheet" href="getCR.css">
   <script src="https://kit.fontawesome.com/20b352c5e7.js" crossorigin="anonymous"></script>
-  <script src="index.js"></script>
 </head>
 
 <body>
@@ -18,12 +17,12 @@
       <h1 class="nav__h1">Pick your interest</h1>
     </div>
   </nav>
-  
-  <section id="discipline-section">
-    <div class="container discipline-container">
-      <h2>Select your discipline!</h2>
+
+  <section id="Faculty-section">
+    <div class="container Faculty-container">
+      <h2>Select your Faculty!</h2>
       <div class="dropdown-container">
-        <select id="discipline-dropdown">
+        <select id="Faculty-dropdown">
           <option value="1">1</option>
           <option value="2">2</option>
           <option value="3">3</option>
@@ -37,63 +36,134 @@
       </div>
     </div>
   </section>
-  
+
   <section id="interests">
     <div class="container">
-      <div class="row">
-        <div class="interest"><div class="emoji">🧠</div><p>Analytical</p><button class="btn">Choose</button></div>
-        <div class="interest"><div class="emoji">🎨</div><p>Creativity</p><button class="btn">Choose</button></div>
-        <div class="interest"><div class="emoji">💬</div><p>Discussion</p><button class="btn">Choose</button></div>
-        <div class="interest"><div class="emoji">📚</div><p>English</p><button class="btn">Choose</button></div>
+        <div class="row">
+            <div class="interest">
+                <div class="emoji">🧠</div>
+                <p id="btnName1">Analytical</p>
+                <button class="btn" onclick="getButton('btnName1')">Choose</button>
+            </div>
+            <div class="interest">
+                <div class="emoji">🎨</div>
+                <p id="btnName2">Creativity</p>
+                <button class="btn" onclick="getButton('btnName2')">Choose</button>
+            </div>
+            <div class="interest">
+                <div class="emoji">💬</div>
+                <p id="btnName3">Discussion</p>
+                <button class="btn" onclick="getButton('btnName3')">Choose</button>
+            </div>
+            <div class="interest">
+                <div class="emoji">📚</div>
+                <p id="btnName4">English</p>
+                <button class="btn" onclick="getButton('btnName4')">Choose</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="interest">
+                <div class="emoji">🗺️</div>
+                <p id="btnName5">Exploration</p>
+                <button class="btn" onclick="getButton('btnName5')">Choose</button>
+            </div>
+            <div class="interest">
+                <div class="emoji">💪</div>
+                <p id="btnName6">Fitness/Gym</p>
+                <button class="btn" onclick="getButton('btnName6')">Choose</button>
+            </div>
+            <div class="interest">
+                <div class="emoji">🤝</div>
+                <p id="btnName7">Helping</p>
+                <button class="btn" onclick="getButton('btnName7')">Choose</button>
+            </div>
+            <div class="interest">
+                <div class="emoji">🏛️</div>
+                <p id="btnName8">History</p>
+                <button class="btn" onclick="getButton('btnName8')">Choose</button>
+            </div>
+        </div>
+        <div class="row">
+          <div class="interest">
+              <div class="emoji">➗</div>
+              <p id="btnName9">Maths</p>
+              <button class="btn" onclick="getButton('btnName9')">Choose</button>
+          </div>
+          <div class="interest">
+              <div class="emoji">🧘</div>
+              <p id="btnName10">Meditation</p>
+              <button class="btn" onclick="getButton('btnName10')">Choose</button>
+          </div>
+          <div class="interest">
+              <div class="emoji">🌳</div>
+              <p id="btnName11">Nature</p>
+              <button class="btn" onclick="getButton('btnName11')">Choose</button>
+          </div>
+          <div class="interest">
+              <div class="emoji">📰</div>
+              <p id="btnName12">News</p>
+              <button class="btn" onclick="getButton('btnName12')">Choose</button>
+          </div>
       </div>
+      
       <div class="row">
-        <div class="interest"><div class="emoji">🗺️</div><p>Exploration</p><button class="btn">Choose</button></div>
-        <div class="interest"><div class="emoji">💪</div><p>Fitness/Gym</p><button class="btn">Choose</button></div>
-        <div class="interest"><div class="emoji">🤝</div><p>Helping</p><button class="btn">Choose</button></div>
-        <div class="interest"><div class="emoji">🏛️</div><p>History</p><button class="btn">Choose</button></div>
+          <div class="interest">
+              <div class="emoji">🍏</div>
+              <p id="btnName13">Nutrition/Health</p>
+              <button class="btn" onclick="getButton('btnName13')">Choose</button>
+          </div>
+          <div class="interest">
+              <div class="emoji">💻</div>
+              <p id="btnName14">Programming</p>
+              <button class="btn" onclick="getButton('btnName14')">Choose</button>
+          </div>
+          <div class="interest">
+              <div class="emoji">📖</div>
+              <p id="btnName15">Reading/Writing</p>
+              <button class="btn" onclick="getButton('btnName15')">Choose</button>
+          </div>
+          <div class="interest">
+              <div class="emoji">🔬</div>
+              <p id="btnName16">Science</p>
+              <button class="btn" onclick="getButton('btnName16')">Choose</button>
+          </div>
       </div>
-      <div class="row">
-        <div class="interest"><div class="emoji">➗</div><p>Maths</p><button class="btn">Choose</button></div>
-        <div class="interest"><div class="emoji">🧘</div><p>Meditation</p><button class="btn">Choose</button></div>
-        <div class="interest"><div class="emoji">🌳</div><p>Nature</p><button class="btn">Choose</button></div>
-        <div class="interest"><div class="emoji">📰</div><p>News</p><button class="btn">Choose</button></div>
-      </div>
-      <div class="row">
-        <div class="interest"><div class="emoji">🍏</div><p>Nutrition/Health</p><button class="btn">Choose</button></div>
-        <div class="interest"><div class="emoji">💻</div><p>Programming</p><button class="btn">Choose</button></div>
-        <div class="interest"><div class="emoji">📖</div><p>Reading/Writing</p><button class="btn">Choose</button></div>
-        <div class="interest"><div class="emoji">🔬</div><p>Science</p><button class="btn">Choose</button></div>
-      </div>
-      <div class="row">
-        <div class="interest"><div class="emoji">📱</div><p>Social Media</p><button class="btn">Choose</button></div>
-        <div class="interest"><div class="emoji">🚀</div><p>Space</p><button class="btn">Choose</button></div>
-        <div class="interest"><div class="emoji">🗣️</div><p>Talking</p><button class="btn">Choose</button></div>
-        <div class="interest"><div class="emoji">📱</div><p>Technology</p><button class="btn">Choose</button></div>
-      </div>
-    </div>
 
-    <div id="next-button-container">
-      <a href="CRtest.html" id="next-button">Next</a>
-    </div>
-
-  </section>
+      <div class="row">
+          <div class="interest">
+              <div class="emoji">📱</div>
+              <p id="btnName17">Social Media</p>
+              <button class="btn" onclick="getButton('btnName17')">Choose</button>
+          </div>
+          <div class="interest">
+              <div class="emoji">🚀</div>
+              <p id="btnName18">Space</p>
+              <button class="btn" onclick="getButton('btnName18')">Choose</button>
+          </div>
+          <div class="interest">
+              <div class="emoji">🗣️</div>
+              <p id="btnName19">Talking</p>
+              <button class="btn" onclick="getButton('btnName19')">Choose</button>
+          </div>
+          <div class="interest">
+              <div class="emoji">📱</div>
+              <p id="btnName20">Technology</p>
+              <button class="btn" onclick="getButton('btnName20')">Choose</button>
+          </div>
+      </div>
+  </div>
+</section>
 
 <script>
-    document.addEventListener('DOMContentLoaded', () => {
-      const interestButtons = document.querySelectorAll('.btn');
+  function getButton(id) {
+      const interestElement = document.getElementById(id);
+      if (interestElement) {
+          interestElement.closest('.interest').classList.toggle('interest--selected');
+          interestElement.nextElementSibling.classList.toggle('btn--selected');
+      }
+  }
+</script>
 
-      interestButtons.forEach((btn) => {
-        btn.addEventListener('click', (e) => {
-          e.preventDefault();
-          const interestBox = e.target.closest('.interest');
-          interestBox.classList.toggle('interest--selected');
-          btn.classList.toggle('btn--selected');
-        });
-      });
-    });
-  </script>
 </body>
-
-</html>
 
 </html>
