@@ -1,4 +1,6 @@
+//This is the Page that shows the recommended pages
 //this would fetch from the backend
+
 
 const coursesListEl = document.querySelector(".column") //fill this out
 
