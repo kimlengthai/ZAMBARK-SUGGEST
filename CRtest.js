@@ -2,7 +2,7 @@
 //this would fetch from the backend
 
 
-const coursesListEl = document.querySelector(".column") //fill this out
+// const coursesListEl = document.querySelector(".") //fill this out
 
 async function main (){
     
@@ -27,9 +27,9 @@ async function main (){
     
     // Now you can make the fetch request using the constructed URL
     const courses = await fetch(`https://course-recommendation-system.azurewebsites.net/subjects/law/?${interestName}`) 
-
+    const coursesListEl = document.querySelector(".row");   
     const coursesData = await courses.json()
-    coursesListEl.innerHTML = coursesData.map((user) => userHTML(user)).join
+    coursesListEl.innerHTML = coursesData.map((course) => userHTML(course)).join()
 
     console.log(coursesData)
 
@@ -37,10 +37,11 @@ async function main (){
 
 main()
 
-function userHTML(user){
+function userHTML(course){
     return`
+    <div class="column">
     <div class="card">
-        <h2>${interestName.name}</h2>
+        <h2>${course.name}</h2>
         <img class="logoPlace" src="./assets/cr__logo.png" alt="">
         <p><br>"<span class="ital">Blah Blah</span>" - Student Review<br></p>
         <span class="fa fa-star checked"></span>
@@ -58,6 +59,7 @@ function userHTML(user){
         <span class="fa fa-star"></span>
         <p><br></p>
     </div>
+</div>
     
     
     `
