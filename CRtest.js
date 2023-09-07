@@ -5,7 +5,7 @@
 const coursesListEl = document.querySelector(".column") //fill this out
 
 async function main (){
-    const courses = await fetch(``) //fill this out
+    const courses = await fetch(`https://course-recommendation-system.azurewebsites.net/subjects/law/`) //fill this out
     const coursesData = await courses.json()
     coursesListEl.innerHTML = coursesData.map((user) => userHTML(user)).join
 
