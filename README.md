@@ -2,12 +2,19 @@
 
 
 **Contributors:**
+
 Ahmed Khilji - Leader and Frontend
+
 Amit Sharan - Co-Leader and Backend
+
 Zihad Burhan - Frontend
+
 Braedon James - Frontend
+
 Mohmmad ALmadi - Backend
+
 Kimleng That - Backend
+
 Raymond Do - Backend
 
 
