@@ -1808,4 +1808,2690 @@
         "interests": ["analytical", "creativity", "discussion"]
       }
   ]
+
+]
+//feit
+[
+    {
+        "code": "42890",
+        "name": "4G/5G Mobile Technologies",
+        "credits": 6,
+        "availability": [
+            "Spring"
+        ],
+        "requisites": [],
+        "antirequisites": [],
+        "mincp": 120,
+        "interests": [
+            "Technology",
+            "Science",
+            "Analytical",
+            "Maths",
+            "Exploration"
+        ]
+    },
+    {
+        "code": "013992",
+        "name": "Aboriginal Sydney Now",
+        "credits": 6,
+        "availability": [
+            "Spring"
+        ],
+        "requisites": [],
+        "antirequisites": [
+            "013993"
+        ],
+        "mincp": null,
+        "interests": [
+            "Analytical",
+            "Discussion",
+            "History",
+            "Reading/Writing",
+            "Social Media"
+        ]
+    },
+    {
+        "code": "42091",
+        "name": "Advanced Energy Conversion Systems",
+        "credits": 6,
+        "availability": [
+            "Spring"
+        ],
+        "requisites": [
+            "48571"
+        ],
+        "antirequisites": [],
+        "mincp": 120,
+        "interests": [
+            "Technology",
+            "Science",
+            "Programming",
+            "Maths",
+            "Analytical"
+        ]
+    },
+    {
+        "code": "48371",
+        "name": "Advanced Engineering Computing",
+        "credits": 6,
+        "availability": [
+            "Spring"
+        ],
+        "requisites": [
+            ["48221"],
+            ["48349"]
+        ],
+        "antirequisites": [],
+        "mincp": 120,
+        "interests": [
+            "Maths",
+            "Programming",
+            "Technology",
+            "Analytical",
+            "Creativity"
+        ]
+    },
+    {
+        "code": "49312",
+        "name": "Advanced Flow Modelling",
+        "credits": 6,
+        "availability": [
+            "Spring"
+        ],
+        "requisites": [
+        ],
+        "antirequisites": [],
+        "mincp": 120,
+        "interests": [
+            "Technology",
+            "Science",
+            "Programming",
+            "Analytical",
+            "Exploration"
+        ]
+    },
+    {
+        "code": "42092",
+        "name": "Advanced Power Electronics",
+        "credits": 6,
+        "availability": [
+            "Autumn"
+        ],
+        "requisites": [
+            "48561"
+        ],
+        "antirequisites": [],
+        "mincp": 120,
+        "interests": [
+            "Technology",
+            "Science",
+            "Programming",
+            "Analytical",
+            "Maths"
+        ]
+    },
+    {
+        "code": "49274",
+        "name": "Advanced Robotics",
+        "credits": 6,
+        "availability": [
+            "Spring"
+        ],
+        "requisites": [
+            "48430",
+            "48623",
+            "41012"
+        ],
+        "antirequisites": [],
+        "mincp": 120,
+        "interests": [
+            "Technology",
+            "talking",
+            "Maths",
+            "exploration"
+        ]
+    },
+    {
+        "code": "49254",
+        "name": "Advanced Soil Mechanics and Foundation Design",
+        "credits": 6,
+        "availability": [
+            "Spring"
+        ],
+        "requisites": [
+            "48360"
+        ],
+        "antirequisites": [],
+        "mincp": 120,
+        "interests": [
+            "nature",
+            "Reading/Writing",
+            "Technology"
+        ]
+    },
+    {
+        "code": "42991",
+        "name": "Advanced Water and Wastewater Treatment",
+        "credits": 6,
+        "availability": [
+            "Autumn"
+        ],
+        "requisites": [
+        ],
+        "antirequisites": [],
+        "mincp": 120,
+        "interests": [
+            "nature",
+            "creativity",
+            "Technology",
+            "science"
+        ]
+    },
+    {
+        "code": "49049",
+        "name": "Air and Noise Pollution",
+        "credits": 6,
+        "availability": [
+            "Autumn"
+        ],
+        "requisites": [],
+        "antirequisites": [],
+        "mincp": 120,
+        "interests": [
+            "talking",
+            "science",
+            "nature",
+            "Reading/Writing"
+        ]
+    },
+    {
+        "code": "49322",
+        "name": "Airconditioning",
+        "credits": 6,
+        "availability": [
+            "Autumn"
+        ],
+        "requisites": [
+            "48651"
+        ],
+        "antirequisites": [],
+        "mincp": 120,
+        "interests": [
+            "science",
+            "Technology",
+            "Maths",
+            "nature",
+            "Reading/Writing"
+        ]
+    },
+    {
+        "code": "49136",
+        "name": "Application of Timber in Engineering Structures",
+        "credits": 6,
+        "availability": [
+            "Autumn"
+        ],
+        "requisites": [
+            "48389"
+        ],
+        "antirequisites": [],
+        "mincp": 120,
+        "interests": [
+            "science",
+            "nature",
+            "helping",
+            "talking"
+        ]
+    },
+    {
+        "code": "49118",
+        "name": "Applied Geotechnics",
+        "credits": 6,
+        "availability": [
+            "Spring"
+        ],
+        "requisites": [
+            "48330"
+        ],
+        "antirequisites": [],
+        "mincp": 120,
+        "interests": [
+            "discussion",
+            "science",
+            "nature",
+            "talking"
+        ]
+    },
+    {
+        "code": "36200",
+        "name": "Arguments, Evidence and Intuition",
+        "credits": 6,
+        "availability": [
+            "Summer",
+            "Spring",
+            "Autumn"
+        ],
+        "requisites": [],
+        "antirequisites": [],
+        "mincp": null,
+        "interests": [
+            "Maths",
+            "discussion",
+            "creativity",
+            "Technology",
+            "talking"
+        ]
+    },
+    {
+        "code": "42001",
+        "name": "Bioinformatics",
+        "credits": 6,
+        "availability": [
+            "Spring"
+        ],
+        "requisites": [
+            "31005",
+            "41160"
+        ],
+        "antirequisites": [
+            "91816"
+        ],
+        "mincp": 120,
+        "interests": [
+            "science",
+            "Maths",
+            "Technology",
+            "talking"
+        ]
+    },
+    {
+        "code": "49261",
+        "name": "Biomedical Instrumentation",
+        "credits": 6,
+        "availability": [
+            "Spring"
+        ],
+        "requisites": [
+        ],
+        "antirequisites": [],
+        "mincp": 120,
+        "interests": [
+            "helping",
+            "science",
+            "nutrition/health",
+            "Reading/Writing"
+        ]
+    },
+    {
+        "code": "42906",
+        "name": "Biomedical Signal Processing",
+        "credits": 6,
+        "availability": [
+            "Autumn"
+        ],
+        "requisites": [
+            "48541",
+            "48540",
+            "41090",
+            "41162",
+            "41160"
+        ],
+        "antirequisites": [],
+        "mincp": 120,
+        "interests": [
+            "science",
+            "Technology",
+            "analytical",
+            "talking"
+        ]
+    },
+    {
+        "code": "49131",
+        "name": "Bridge Design",
+        "credits": 6,
+        "availability": [
+            "Autumn"
+        ],
+        "requisites": [
+            "48389"
+        ],
+        "antirequisites": [],
+        "mincp": 120,
+        "interests": [
+            "science",
+            "nature",
+            "Maths",
+            "Reading/Writing"
+        ]
+    },
+    {
+        "code": "49255",
+        "name": "Catchment Modelling",
+        "credits": 6,
+        "availability": [
+            "Spring"
+        ],
+        "requisites": [
+            "48362"
+        ],
+        "antirequisites": [],
+        "mincp": 120,
+        "interests": [
+            "Reading/Writing",
+            "science",
+            "analytical",
+            "talking",
+            "discussion"
+        ]
+    },
+    {
+        "code": "65111",
+        "name": "Chemistry 1",
+        "credits": 6,
+        "availability": [
+            "Spring",
+            "Autumn"
+        ],
+        "requisites": [],
+        "antirequisites": [],
+        "mincp": null,
+        "interests": [
+            "science",
+            "nature",
+            "analytical"
+        ]
+    },
+    {
+        "code": "48530",
+        "name": "Circuit Analysis and Design",
+        "credits": 6,
+        "availability": [
+            "Spring",
+            "Autumn"
+        ],
+        "requisites": [
+            "48520",
+            "48521",
+            "10186"
+        ],
+        "antirequisites": [],
+        "mincp": null,
+        "interests": [
+            "Technology",
+            "analytical",
+            "creativity",
+            "programming"
+        ]
+    },
+    {
+        "code": "48389",
+        "name": "Computer Modelling and Design",
+        "credits": 6,
+        "availability": [
+            "Spring",
+            "Autumn"
+        ],
+        "requisites": [
+            "48366",
+            "48359",
+            "48353",
+            "48389",
+            "48366",
+            "48359",
+            "48353"
+        ],
+        "antirequisites": [],
+        "mincp": 144,
+        "interests": [
+            "science",
+            "analytical",
+            "Technology",
+            "Maths"
+        ]
+    },
+    {
+        "code": "49325",
+        "name": "Computer-aided Mechanical Design",
+        "credits": 6,
+        "availability": [
+            "Autumn"
+        ],
+        "requisites": [
+        ],
+        "antirequisites": [],
+        "mincp": 120,
+        "interests": [
+            "Maths",
+            "programming",
+            "Technology",
+            "Reading/Writing",
+            "discussion"
+        ]
+    },
+    {
+        "code": "48353",
+        "name": "Concrete Design",
+        "credits": 6,
+        "availability": [
+            "Spring",
+            "Autumn"
+        ],
+        "requisites": [
+            "48349",
+            "48352",
+            "48353",
+            "48349",
+            "48352",
+            "48342"
+        ],
+        "antirequisites": [
+            "48342"
+        ],
+        "mincp": null,
+        "interests": [
+            "nature",
+            "science",
+            "Maths",
+            "helping",
+            "discussion"
+        ]
+    },
+    {
+        "code": "49151",
+        "name": "Concrete Technology and Practice",
+        "credits": 6,
+        "availability": [
+            "Autumn"
+        ],
+        "requisites": [
+            "48352"
+        ],
+        "antirequisites": [],
+        "mincp": 120,
+        "interests": [
+            "exploration",
+            "Reading/Writing",
+            "talking",
+            "science",
+            "nature"
+        ]
+    },
+    {
+        "code": "48340",
+        "name": "Construction",
+        "credits": 6,
+        "availability": [
+            "Spring",
+            "Autumn"
+        ],
+        "requisites": [
+            "48310"
+        ],
+        "antirequisites": [],
+        "mincp": null,
+        "interests": [
+            "analytical",
+            "discussion",
+            "talking",
+            "science"
+        ]
+    },
+    {
+        "code": "48352",
+        "name": "Construction Materials",
+        "credits": 6,
+        "availability": [
+            "Spring",
+            "Autumn"
+        ],
+        "requisites": [
+            "60101",
+            "65111",
+            "33230"
+        ],
+        "antirequisites": [],
+        "mincp": null,
+        "interests": [
+            "analytical",
+            "helping",
+            "nature",
+            "Reading/Writing"
+        ]
+    },
+    {
+        "code": "49116",
+        "name": "Contaminated Site and Waste Remediation",
+        "credits": 6,
+        "availability": [
+            "Spring"
+        ],
+        "requisites": [
+        ],
+        "antirequisites": [],
+        "mincp": 120,
+        "interests": [
+            "nature",
+            "science",
+            "helping",
+            "creativity",
+            "Reading/Writing"
+        ]
+    },
+    {
+        "code": "41277",
+        "name": "Control Design",
+        "credits": 6,
+        "availability": [
+            "Spring"
+        ],
+        "requisites": [
+            "48540"
+        ],
+        "antirequisites": [],
+        "mincp": null,
+        "interests": [
+            "not",
+            "available"
+        ]
+    },
+    {
+        "code": "48560",
+        "name": "Control Studio A",
+        "credits": 6,
+        "availability": [
+            "Spring"
+        ],
+        "requisites": [
+            "41277",
+            "48540"
+        ],
+        "antirequisites": [],
+        "mincp": null,
+        "interests": [
+            "discussion",
+            "talking",
+            "exploration",
+            "Technology",
+            "nature"
+        ]
+    },
+    {
+        "code": "48580",
+        "name": "Control Studio B",
+        "credits": 6,
+        "availability": [
+            "Autumn"
+        ],
+        "requisites": [
+            "48560"
+        ],
+        "antirequisites": [],
+        "mincp": null,
+        "interests": [
+            "discussion",
+            "talking",
+            "exploration",
+            "nature",
+            "analytical"
+        ]
+    },
+    {
+        "code": "49329",
+        "name": "Control of Mechatronic Systems",
+        "credits": 6,
+        "availability": [
+            "Spring"
+        ],
+        "requisites": [
+            "48660"
+        ],
+        "antirequisites": [],
+        "mincp": 120,
+        "interests": [
+            "programming",
+            "Technology",
+            "analytical",
+            "Reading/Writing"
+        ]
+    },
+    {
+        "code": "41900",
+        "name": "Cryptography",
+        "credits": 6,
+        "availability": [
+            "Autumn"
+        ],
+        "requisites": [
+            "48730",
+            "65325"
+        ],
+        "antirequisites": [],
+        "mincp": null,
+        "interests": [
+            "Technology",
+            "programming",
+            "Maths",
+            "discussion"
+        ]
+    },
+    {
+        "code": "48730",
+        "name": "Cybersecurity",
+        "credits": 6,
+        "availability": [
+            "Spring",
+            "Autumn"
+        ],
+        "requisites": [
+            "31268",
+            "48410",
+            "41082",
+            "65325",
+            "48450",
+            "48033",
+            "31270",
+            "41092",
+            "48720"
+        ],
+        "antirequisites": [
+            "32548"
+        ],
+        "mincp": null,
+        "interests": [
+            "Technology",
+            "programming",
+            "creativity",
+            "analytical"
+        ]
+    },
+    {
+        "code": "41091",
+        "name": "Data Systems",
+        "credits": 6,
+        "availability": [
+            "Autumn"
+        ],
+        "requisites": [
+            "48024",
+            "41082"
+        ],
+        "antirequisites": [],
+        "mincp": null,
+        "interests": [
+            "talking",
+            "discussion",
+            "programming",
+            "exploration",
+            "Technology"
+        ]
+    },
+    {
+        "code": "49127",
+        "name": "Decentralised Environmental Systems",
+        "credits": 6,
+        "availability": [
+            "Spring"
+        ],
+        "requisites": [
+            "48350",
+            "48840"
+        ],
+        "antirequisites": [],
+        "mincp": 120,
+        "interests": [
+            "nature",
+            "helping",
+            "analytical",
+            "creativity"
+        ]
+    },
+    {
+        "code": "49928",
+        "name": "Design Optimisation for Manufacturing",
+        "credits": 6,
+        "availability": [
+            "Spring"
+        ],
+        "requisites": [
+        ],
+        "antirequisites": [],
+        "mincp": 120,
+        "interests": [
+            "creativity",
+            "programming",
+            "Technology",
+            "exploration"
+        ]
+    },
+    {
+        "code": "42907",
+        "name": "Design for Durability",
+        "credits": 6,
+        "availability": [
+            "Spring"
+        ],
+        "requisites": [
+            "48352",
+            "48353"
+        ],
+        "antirequisites": [],
+        "mincp": 120,
+        "interests": [
+            "helping",
+            "nature",
+            "talking",
+            "discussion",
+            "science"
+        ]
+    },
+    {
+        "code": "43801",
+        "name": "Digital Engineering Fundamentals",
+        "credits": 6,
+        "availability": [],
+        "requisites": [],
+        "antirequisites": [],
+        "mincp": 120,
+        "interests": [
+            "talking",
+            "discussion",
+            "analytical",
+            "exploration",
+            "Technology"
+        ]
+    },
+    {
+        "code": "43802",
+        "name": "Digital Engineering Management",
+        "credits": 6,
+        "availability": [],
+        "requisites": [],
+        "antirequisites": [],
+        "mincp": 120,
+        "interests": [
+            "creativity",
+            "discussion",
+            "analytical",
+            "exploration",
+            "Reading/Writing"
+        ]
+    },
+    {
+        "code": "48436",
+        "name": "Digital Forensics",
+        "credits": 6,
+        "availability": [
+            "Spring"
+        ],
+        "requisites": [
+            "48730"
+        ],
+        "antirequisites": [
+            "32309"
+        ],
+        "mincp": null,
+        "interests": [
+            "Technology",
+            "analysis",
+            "exploration",
+            "science"
+        ]
+    },
+    {
+        "code": "48571",
+        "name": "Electrical Machines",
+        "credits": 6,
+        "availability": [
+            "Autumn"
+        ],
+        "requisites": [
+            "48531"
+        ],
+        "antirequisites": [],
+        "mincp": null,
+        "interests": [
+            "Reading/Writing",
+            "Technology",
+            "analytical",
+            "exploration"
+        ]
+    },
+    {
+        "code": "48572",
+        "name": "Electrical Power Systems",
+        "credits": 6,
+        "availability": [
+            "Autumn"
+        ],
+        "requisites": [
+            "48520"
+        ],
+        "antirequisites": [],
+        "mincp": null,
+        "interests": [
+            "science",
+            "Technology",
+            "analytical"
+        ]
+    },
+    {
+        "code": "41124",
+        "name": "Electrification and Renewables Studio",
+        "credits": 6,
+        "availability": [],
+        "requisites": [
+            "48572"
+        ],
+        "antirequisites": [],
+        "mincp": null,
+        "interests": [
+            "not",
+            "available"
+        ]
+    },
+    {
+        "code": "48531",
+        "name": "Electromechanical Automation",
+        "credits": 6,
+        "availability": [
+            "Spring",
+            "Autumn"
+        ],
+        "requisites": [
+            "48520",
+            "48660",
+            "33230"
+        ],
+        "antirequisites": [],
+        "mincp": null,
+        "interests": [
+            "science",
+            "discussion",
+            "exploration",
+            "talking"
+        ]
+    },
+    {
+        "code": "41034",
+        "name": "Electronic Components and Fabrication",
+        "credits": 6,
+        "availability": [
+            "Spring"
+        ],
+        "requisites": [
+            "41033",
+            "68038",
+            "33130",
+            "68037",
+            "41033"
+        ],
+        "antirequisites": [],
+        "mincp": null,
+        "interests": [
+            "Technology",
+            "creativity",
+            "exploration",
+            "Reading/Writing"
+        ]
+    },
+    {
+        "code": "48520",
+        "name": "Electronics and Circuits",
+        "credits": 6,
+        "availability": [
+            "Spring",
+            "Autumn"
+        ],
+        "requisites": [
+            "48510",
+            "68201",
+            "33130"
+        ],
+        "antirequisites": [],
+        "mincp": null,
+        "interests": [
+            "analytical",
+            "science",
+            "Technology",
+            "helping"
+        ]
+    },
+    {
+        "code": "48622",
+        "name": "Embedded Mechatronics Systems",
+        "credits": 6,
+        "availability": [
+            "Autumn"
+        ],
+        "requisites": [
+            "48510",
+            "41099"
+        ],
+        "antirequisites": [
+            "48441"
+        ],
+        "mincp": null,
+        "interests": [
+            "creativity",
+            "Technology",
+            "programming",
+            "exploration"
+        ]
+    },
+    {
+        "code": "48451",
+        "name": "Embedded Systems Studio A",
+        "credits": 6,
+        "availability": [
+            "Spring"
+        ],
+        "requisites": [
+            "48441"
+        ],
+        "antirequisites": [],
+        "mincp": null,
+        "interests": [
+            "Technology",
+            "analytical",
+            "discussions",
+            "talking"
+        ]
+    },
+    {
+        "code": "48570",
+        "name": "Embedded Systems Studio B",
+        "credits": 6,
+        "availability": [
+            "Autumn"
+        ],
+        "requisites": [
+            "48441"
+        ],
+        "antirequisites": [],
+        "mincp": null,
+        "interests": [
+            "Technology",
+            "analytical",
+            "discussions",
+            "Reading/Writing",
+            "creativity"
+        ]
+    },
+    {
+        "code": "43026",
+        "name": "Energy Economics, Optimisation and Policy",
+        "credits": 6,
+        "availability": [],
+        "requisites": [
+            "41124",
+            "43124",
+            "42090",
+            "03547",
+            "03548",
+            "03549"
+        ],
+        "antirequisites": [],
+        "mincp": 78,
+        "interests": [
+            "Not",
+            "available"
+        ]
+    },
+    {
+        "code": "48221",
+        "name": "Engineering Computations",
+        "credits": 6,
+        "availability": [
+            "Spring",
+            "Autumn"
+        ],
+        "requisites": [
+            "33130"
+        ],
+        "antirequisites": [
+            "41044"
+        ],
+        "mincp": null,
+        "interests": [
+            "Maths",
+            "programming",
+            "creativity"
+        ]
+    },
+    {
+        "code": "48850",
+        "name": "Environmental Planning and Law",
+        "credits": 6,
+        "availability": [],
+        "requisites": [
+            "10384",
+            "10411",
+            "10412",
+            "10228"
+        ],
+        "antirequisites": [],
+        "mincp": 87,
+        "interests": [
+            "science",
+            "nature",
+            "helping",
+            "discussion"
+        ]
+    },
+    {
+        "code": "49125",
+        "name": "Environmental Risk Assessment",
+        "credits": 6,
+        "availability": [
+            "Spring"
+        ],
+        "requisites": [
+        ],
+        "antirequisites": [],
+        "mincp": 120,
+        "interests": [
+            "science",
+            "helping",
+            "analytical",
+            "exploration"
+        ]
+    },
+    {
+        "code": "48350",
+        "name": "Environmental and Sanitation Engineering",
+        "credits": 6,
+        "availability": [
+            "Spring",
+            "Autumn"
+        ],
+        "requisites": [
+            "60101",
+            "65111"
+        ],
+        "antirequisites": [],
+        "mincp": null,
+        "interests": [
+            "nature",
+            "science",
+            "creativity",
+            "discussion"
+        ]
+    },
+    {
+        "code": "49115",
+        "name": "Facade Engineering",
+        "credits": 6,
+        "availability": [
+            "Autumn"
+        ],
+        "requisites": [
+        ],
+        "antirequisites": [],
+        "mincp": 120,
+        "interests": [
+            "science",
+            "nature",
+            "Reading/Writing"
+        ]
+    },
+    {
+        "code": "49047",
+        "name": "Finite Element Analysis",
+        "credits": 6,
+        "availability": [
+            "Spring"
+        ],
+        "requisites": [
+        ],
+        "antirequisites": [],
+        "mincp": 120,
+        "interests": [
+            "Maths",
+            "creativity",
+            "Technology"
+        ]
+    },
+    {
+        "code": "49256",
+        "name": "Flood Estimation",
+        "credits": 6,
+        "availability": [
+            "Autumn"
+        ],
+        "requisites": [
+            "48362"
+        ],
+        "antirequisites": [],
+        "mincp": 120,
+        "interests": [
+            "analytical",
+            "nature",
+            "science"
+        ]
+    },
+    {
+        "code": "49117",
+        "name": "Floodplain Risk Management",
+        "credits": 6,
+        "availability": [
+            "Spring"
+        ],
+        "requisites": [
+        ],
+        "antirequisites": [],
+        "mincp": 120,
+        "interests": [
+            "helping",
+            "science",
+            "nature"
+        ]
+    },
+    {
+        "code": "48641",
+        "name": "Fluid Mechanics",
+        "credits": 6,
+        "availability": [
+            "Spring",
+            "Autumn"
+        ],
+        "requisites": [
+            "33230"
+        ],
+        "antirequisites": [],
+        "mincp": null,
+        "interests": [
+            "science",
+            "Maths",
+            "analytical",
+            "nature"
+        ]
+    },
+    {
+        "code": "48521",
+        "name": "Foundations of Electrical and Electronic Technology",
+        "credits": 6,
+        "availability": [
+            "Spring",
+            "Autumn"
+        ],
+        "requisites": [
+            "48510",
+            "68037",
+            "33230",
+            "48521",
+            "48510",
+            "68037",
+            "33230"
+        ],
+        "antirequisites": [],
+        "mincp": null,
+        "interests": [
+            "Technology",
+            "analytical",
+            "science"
+        ]
+    },
+    {
+        "code": "48430",
+        "name": "Fundamentals of C Programming",
+        "credits": 6,
+        "availability": [
+            "Spring",
+            "Autumn"
+        ],
+        "requisites": [],
+        "antirequisites": [],
+        "mincp": null,
+        "interests": [
+            "programming",
+            "analytical",
+            "discussion",
+            "creativity"
+        ]
+    },
+    {
+        "code": "49257",
+        "name": "Geographic Information Systems",
+        "credits": 6,
+        "availability": [
+            "Spring",
+            "Autumn"
+        ],
+        "requisites": [
+        ],
+        "antirequisites": [],
+        "mincp": 120,
+        "interests": [
+            "analytical",
+            "nature",
+            "discussion"
+        ]
+    },
+    {
+        "code": "48360",
+        "name": "Geotechnical Engineering",
+        "credits": 6,
+        "availability": [
+            "Spring",
+            "Autumn"
+        ],
+        "requisites": [
+            "48330"
+        ],
+        "antirequisites": [],
+        "mincp": null,
+        "interests": [
+            "nature",
+            "science",
+            "helping"
+        ]
+    },
+    {
+        "code": "48362",
+        "name": "Hydraulics and Hydrology",
+        "credits": 6,
+        "availability": [
+            "Spring",
+            "Autumn"
+        ],
+        "requisites": [
+            "48641"
+        ],
+        "antirequisites": [],
+        "mincp": null,
+        "interests": [
+            "science",
+            "creativity",
+            "nature"
+        ]
+    },
+    {
+        "code": "42177",
+        "name": "Image Processing and Pattern Recognition",
+        "credits": 6,
+        "availability": [],
+        "requisites": [
+            "32555"
+        ],
+        "antirequisites": [
+            "31256"
+        ],
+        "mincp": null,
+        "interests": [
+            "Technology",
+            "analytical",
+            "discussion"
+        ]
+    },
+    {
+        "code": "43011",
+        "name": "Industrial Control System Security",
+        "credits": 6,
+        "availability": [],
+        "requisites": [
+            "42037",
+            "41305"
+        ],
+        "antirequisites": [],
+        "mincp": null,
+        "interests": [
+            "Technology",
+            "exploration",
+            "analytical",
+            "creativity"
+        ]
+    },
+    {
+        "code": "41013",
+        "name": "Industrial Robotics",
+        "credits": 6,
+        "availability": [
+            "Spring"
+        ],
+        "requisites": [
+            "48622",
+            "33230",
+            "41039",
+            "48430",
+            "37171",
+            "48221",
+            "48023"
+        ],
+        "antirequisites": [],
+        "mincp": null,
+        "interests": [
+            "Maths",
+            "programming",
+            "exploration"
+        ]
+    },
+    {
+        "code": "41181",
+        "name": "Information Security and Management",
+        "credits": 6,
+        "availability": [
+            "Spring"
+        ],
+        "requisites": [
+            "31268",
+            "48410",
+            "41082",
+            "65325",
+            "31257",
+            "41092",
+            "31266",
+            "48023",
+            "41039",
+            "48430"
+        ],
+        "antirequisites": [],
+        "mincp": null,
+        "interests": [
+            "creativity",
+            "programming",
+            "Technology"
+        ]
+    },
+    {
+        "code": "41033",
+        "name": "Integrated Electronic Systems Design",
+        "credits": 6,
+        "availability": [
+            "Spring"
+        ],
+        "requisites": [
+            "48530",
+            "41033",
+            "48530"
+        ],
+        "antirequisites": [],
+        "mincp": null,
+        "interests": [
+            "Technology",
+            "programming",
+            "analytical"
+        ]
+    },
+    {
+        "code": "99200",
+        "name": "Intercultural Communication",
+        "credits": 6,
+        "availability": [
+            "Spring",
+            "Autumn"
+        ],
+        "requisites": [],
+        "antirequisites": [
+            "99218"
+        ],
+        "mincp": null,
+        "interests": [
+            "talking",
+            "Reading/Writing",
+            "discussion"
+        ]
+    },
+    {
+        "code": "48033",
+        "name": "Internet of Things",
+        "credits": 6,
+        "availability": [
+            "Spring"
+        ],
+        "requisites": [
+            "48023",
+            "48430",
+            "41039",
+            "31270",
+            "48720",
+            "48740",
+            "41092",
+            "41090",
+            "48540"
+        ],
+        "antirequisites": [],
+        "mincp": null,
+        "interests": [
+            "science",
+            "Technology",
+            "Reading/Writing"
+        ]
+    },
+    {
+        "code": "42095",
+        "name": "Introduction to Building Information Modelling",
+        "credits": 6,
+        "availability": [],
+        "requisites": [],
+        "antirequisites": [],
+        "mincp": 120,
+        "interests": [
+            "Technology",
+            "science",
+            "analytical"
+        ]
+    },
+    {
+        "code": "31250",
+        "name": "Introduction to Data Analytics",
+        "credits": 6,
+        "availability": [
+            "Spring",
+            "Autumn"
+        ],
+        "requisites": [],
+        "antirequisites": [
+            "31040",
+            "32130"
+        ],
+        "mincp": null,
+        "interests": [
+            "programming",
+            "Technology",
+            "analytics",
+            "Reading/Writing"
+        ]
+    },
+    {
+        "code": "41082",
+        "name": "Introduction to Data Engineering",
+        "credits": 6,
+        "availability": [
+            "Autumn"
+        ],
+        "requisites": [],
+        "antirequisites": [],
+        "mincp": null,
+        "interests": [
+            "analytical",
+            "programming",
+            "Reading/Writing"
+        ]
+    },
+    {
+        "code": "48510",
+        "name": "Introduction to Electrical and Electronic Engineering",
+        "credits": 6,
+        "availability": [
+            "Spring",
+            "Autumn"
+        ],
+        "requisites": [],
+        "antirequisites": [],
+        "mincp": null,
+        "interests": [
+            "helping",
+            "analytical",
+            "science"
+        ]
+    },
+    {
+        "code": "43029",
+        "name": "Introduction to Humanitarian Engineering",
+        "credits": 6,
+        "availability": [],
+        "requisites": [
+            "48230",
+            "31265"
+        ],
+        "antirequisites": [],
+        "mincp": 48,
+        "interests": [
+            "nature",
+            "analytical",
+            "creativity",
+            "discussion"
+        ]
+    },
+    {
+        "code": "48080",
+        "name": "Introduction to Innovation",
+        "credits": 6,
+        "availability": [
+            "Spring"
+        ],
+        "requisites": [],
+        "antirequisites": [
+            "49016"
+        ],
+        "mincp": null,
+        "interests": [
+            "technology",
+            "discussion",
+            "exploration",
+            "Reading/Writing",
+            "talking"
+        ]
+    },
+    {
+        "code": "48610",
+        "name": "Introduction to Mechanical Engineering",
+        "credits": 6,
+        "availability": [
+            "Autumn"
+        ],
+        "requisites": [],
+        "antirequisites": [],
+        "mincp": null,
+        "interests": [
+            "analytical",
+            "Technology",
+            "discussion",
+            "Reading/Writing"
+        ]
+    },
+    {
+        "code": "41025",
+        "name": "Introduction to Software Development",
+        "credits": 6,
+        "availability": [
+            "Autumn"
+        ],
+        "requisites": [
+            "48023",
+            "48430",
+            "41039"
+        ],
+        "antirequisites": [],
+        "mincp": null,
+        "interests": [
+            "discussion",
+            "Technology",
+            "exploration",
+            "creativity"
+        ]
+    },
+    {
+        "code": "42057",
+        "name": "Introduction to Space Communications and Sensing",
+        "credits": 6,
+        "availability": [],
+        "requisites": [
+            "48540",
+            "48541",
+            "41090"
+        ],
+        "antirequisites": [],
+        "mincp": 120,
+        "interests": [
+            "space",
+            "exploration",
+            "analytical",
+            "Technology"
+        ]
+    },
+    {
+        "code": "42090",
+        "name": "Introduction to Sustainable Microgrids",
+        "credits": 6,
+        "availability": [
+            "Spring"
+        ],
+        "requisites": [],
+        "antirequisites": [],
+        "mincp": 120,
+        "interests": [
+            "science",
+            "analytical",
+            "nature",
+            "discussion"
+        ]
+    },
+    {
+        "code": "48441",
+        "name": "Introductory Digital Systems",
+        "credits": 6,
+        "availability": [
+            "Spring",
+            "Autumn"
+        ],
+        "requisites": [
+            "48510"
+        ],
+        "antirequisites": [
+            "48622"
+        ],
+        "mincp": null,
+        "interests": [
+            "Technology",
+            "exploration",
+            "analytical"
+        ]
+    },
+    {
+        "code": "48434",
+        "name": "Introductory Embedded Systems",
+        "credits": 6,
+        "availability": [
+            "Autumn"
+        ],
+        "requisites": [
+            "48430"
+        ],
+        "antirequisites": [],
+        "mincp": null,
+        "interests": [
+            "programming",
+            "Maths",
+            "Technology",
+            "creativity"
+        ]
+    },
+    {
+        "code": "49316",
+        "name": "Materials Handling",
+        "credits": 6,
+        "availability": [
+            "Autumn"
+        ],
+        "requisites": [
+            "48389"
+        ],
+        "antirequisites": [],
+        "mincp": 120,
+        "interests": [
+            "nature",
+            "science",
+            "helping",
+            "Reading/Writing"
+        ]
+    },
+    {
+        "code": "48331",
+        "name": "Mechanics of Solids",
+        "credits": 6,
+        "availability": [
+            "Spring",
+            "Autumn"
+        ],
+        "requisites": [
+            "48321",
+            "48620"
+        ],
+        "antirequisites": [],
+        "mincp": null,
+        "interests": [
+            "science",
+            "Maths",
+            "analytical"
+        ]
+    },
+    {
+        "code": "41276",
+        "name": "Microelectronics",
+        "credits": 6,
+        "availability": [],
+        "requisites": [
+            "48520"
+        ],
+        "antirequisites": [],
+        "mincp": null,
+        "interests": [
+            "science",
+            "Technology",
+            "analytical"
+        ]
+    },
+    {
+        "code": "41092",
+        "name": "Network Fundamentals",
+        "credits": 6,
+        "availability": [
+            "Spring",
+            "Autumn"
+        ],
+        "requisites": [],
+        "antirequisites": [
+            "31270",
+            "32524",
+            "48720",
+            "49202"
+        ],
+        "mincp": null,
+        "interests": [
+            "programming",
+            "Technology",
+            "Reading/Writing",
+            "discussion"
+        ]
+    },
+    {
+        "code": "49275",
+        "name": "Neural Networks and Fuzzy Logic",
+        "credits": 6,
+        "availability": [
+            "Autumn"
+        ],
+        "requisites": [
+        ],
+        "antirequisites": [],
+        "mincp": 120,
+        "interests": [
+            "Technology",
+            "Reading/Writing",
+            "programming",
+            "creativity"
+        ]
+    },
+    {
+        "code": "49258",
+        "name": "Pavement Analysis and Design",
+        "credits": 6,
+        "availability": [
+            "Autumn"
+        ],
+        "requisites": [
+            "48330"
+        ],
+        "antirequisites": [],
+        "mincp": 120,
+        "interests": [
+            "science",
+            "nature",
+            "talking",
+            "Reading/Writing"
+        ]
+    },
+    {
+        "code": "48860",
+        "name": "Pollution Control and Waste Management",
+        "credits": 6,
+        "availability": [
+            "Autumn"
+        ],
+        "requisites": [
+            "48840",
+            "48350"
+        ],
+        "antirequisites": [],
+        "mincp": null,
+        "interests": [
+            "nature",
+            "helping",
+            "science",
+            "discussion"
+        ]
+    },
+    {
+        "code": "41278",
+        "name": "Power Electronics",
+        "credits": 6,
+        "availability": [],
+        "requisites": [
+            "48520"
+        ],
+        "antirequisites": [],
+        "mincp": null,
+        "interests": [
+            "Technology",
+            "analytical",
+            "creativity",
+            "Reading/Writing"
+        ]
+    },
+    {
+        "code": "48582",
+        "name": "Power Systems Studio A",
+        "credits": 6,
+        "availability": [
+            "Autumn"
+        ],
+        "requisites": [
+            "48572"
+        ],
+        "antirequisites": [],
+        "mincp": null,
+        "interests": [
+            "discussion",
+            "science",
+            "Technology",
+            "talking"
+        ]
+    },
+    {
+        "code": "48583",
+        "name": "Power Systems Studio B",
+        "credits": 6,
+        "availability": [
+            "Spring"
+        ],
+        "requisites": [
+            "48572"
+        ],
+        "antirequisites": [],
+        "mincp": null,
+        "interests": [
+            "discussion",
+            "science",
+            "Technology",
+            "talking",
+            "creativity"
+        ]
+    },
+    {
+        "code": "49150",
+        "name": "Prestressed Concrete Design",
+        "credits": 6,
+        "availability": [
+            "Autumn"
+        ],
+        "requisites": [
+            "48353"
+        ],
+        "antirequisites": [],
+        "mincp": 120,
+        "interests": [
+            "science",
+            "nature",
+            "Technology"
+        ]
+    },
+    {
+        "code": "48821",
+        "name": "Principles of Environmental Engineering",
+        "credits": 6,
+        "availability": [
+            "Spring"
+        ],
+        "requisites": [
+            "48350"
+        ],
+        "antirequisites": [],
+        "mincp": null,
+        "interests": [
+            "science",
+            "analytical",
+            "nature",
+            "discussion"
+        ]
+    },
+    {
+        "code": "41183",
+        "name": "Privacy Preserving",
+        "credits": 6,
+        "availability": [
+            "Spring"
+        ],
+        "requisites": [
+            "48730",
+            "41181",
+            "41182",
+            "41184"
+        ],
+        "antirequisites": [],
+        "mincp": null,
+        "interests": [
+            "Technology",
+            "analytical",
+            "discussion"
+        ]
+    },
+    {
+        "code": "49119",
+        "name": "Problematic Soils and Ground Improvement Techniques",
+        "credits": 6,
+        "availability": [
+            "Autumn"
+        ],
+        "requisites": [
+            ["48360"],
+            ["48330"]
+        ],
+        "antirequisites": [],
+        "mincp": 120,
+        "interests": [
+            "science",
+            "nature",
+            "Reading/Writing"
+        ]
+    },
+    {
+        "code": "41130",
+        "name": "Professional Practice Studio",
+        "credits": 6,
+        "availability": [],
+        "requisites": [
+            "48230",
+            "31265"
+        ],
+        "antirequisites": [],
+        "mincp": 72,
+        "interests": [
+            "creativity",
+            "Reading/Writing",
+            "analytical",
+            "discussion"
+        ]
+    },
+    {
+        "code": "41088",
+        "name": "Professional Studio A",
+        "credits": 6,
+        "availability": [
+            "Spring",
+            "Autumn"
+        ],
+        "requisites": [
+            "41087",
+            "48260"
+        ],
+        "antirequisites": [
+            "48471"
+        ],
+        "mincp": null,
+        "interests": [
+            "analytical",
+            "talking",
+            "Reading/Writing",
+            "exploration"
+        ]
+    },
+    {
+        "code": "41089",
+        "name": "Professional Studio B",
+        "credits": 6,
+        "availability": [
+            "Spring",
+            "Autumn"
+        ],
+        "requisites": [
+            "41088",
+            "48471"
+        ],
+        "antirequisites": [
+            "48481"
+        ],
+        "mincp": null,
+        "interests": [
+            "analytical",
+            "talking",
+            "Reading/Writing",
+            "exploration",
+            "creativity"
+        ]
+    },
+    {
+        "code": "41039",
+        "name": "Programming 1",
+        "credits": 6,
+        "availability": [
+            "Autumn"
+        ],
+        "requisites": [],
+        "antirequisites": [
+            "48023"
+        ],
+        "mincp": null,
+        "interests": [
+            "programming",
+            "analytical",
+            "Maths"
+        ]
+    },
+    {
+        "code": "48024",
+        "name": "Programming 2",
+        "credits": 6,
+        "availability": [
+            "Spring",
+            "Autumn"
+        ],
+        "requisites": [
+            "48023",
+            "31267",
+            "31465",
+            "48430",
+            "41039"
+        ],
+        "antirequisites": [
+            "31244",
+            "31469"
+        ],
+        "mincp": null,
+        "interests": [
+            "programming",
+            "analytical",
+            "Maths",
+            "creativity"
+        ]
+    },
+    {
+        "code": "48023",
+        "name": "Programming Fundamentals",
+        "credits": 6,
+        "availability": [
+            "Spring",
+            "Autumn"
+        ],
+        "requisites": [],
+        "antirequisites": [
+            "31267",
+            "31465",
+            "31488",
+            "31508",
+            "37171",
+            "41039"
+        ],
+        "mincp": null,
+        "interests": [
+            "programming",
+            "analytical",
+            "exploration"
+        ]
+    },
+    {
+        "code": "41012",
+        "name": "Programming for Mechatronic Systems",
+        "credits": 6,
+        "availability": [
+            "Autumn"
+        ],
+        "requisites": [
+            "48623",
+            "48622",
+            "41039",
+            "48430",
+            "37171",
+            "48221",
+            "48023"
+        ],
+        "antirequisites": [],
+        "mincp": null,
+        "interests": [
+            "programming",
+            "Technology",
+            "Reading/Writing"
+        ]
+    },
+    {
+        "code": "48450",
+        "name": "Real-time Operating Systems",
+        "credits": 6,
+        "availability": [
+            "Autumn"
+        ],
+        "requisites": [
+            "31251",
+            "48430"
+        ],
+        "antirequisites": [],
+        "mincp": null,
+        "interests": [
+            "Technology",
+            "programming",
+            "analytical"
+        ]
+    },
+    {
+        "code": "48561",
+        "name": "Renewable Energy Systems Studio A",
+        "credits": 6,
+        "availability": [
+            "Autumn"
+        ],
+        "requisites": [
+            "48531",
+            "41278",
+            "48531",
+            "48530"
+        ],
+        "antirequisites": [],
+        "mincp": null,
+        "interests": [
+            "science",
+            "Technology",
+            "creativity"
+        ]
+    },
+    {
+        "code": "48550",
+        "name": "Renewable Energy Systems Studio B",
+        "credits": 6,
+        "availability": [
+            "Spring"
+        ],
+        "requisites": [
+            "48531"
+        ],
+        "antirequisites": [],
+        "mincp": null,
+        "interests": [
+            "discussion",
+            "talking",
+            "science",
+            "Technology"
+        ]
+    },
+    {
+        "code": "43124",
+        "name": "Renewable Energy Technology",
+        "credits": 6,
+        "availability": [
+            "Spring"
+        ],
+        "requisites": [
+            "10399"
+        ],
+        "antirequisites": [
+            "41009"
+        ],
+        "mincp": 96,
+        "interests": [
+            "nature",
+            "science",
+            "helping",
+            "analytical"
+        ]
+    },
+    {
+        "code": "49006",
+        "name": "Risk Management in Engineering",
+        "credits": 6,
+        "availability": [
+            "Spring",
+            "Autumn"
+        ],
+        "requisites": [
+        ],
+        "antirequisites": [],
+        "mincp": 120,
+        "interests": [
+            "discussion",
+            "Reading/Writing",
+            "analytical"
+        ]
+    },
+    {
+        "code": "49106",
+        "name": "Road Engineering Practice",
+        "credits": 6,
+        "availability": [
+            "Autumn"
+        ],
+        "requisites": [],
+        "antirequisites": [],
+        "mincp": 120,
+        "interests": [
+            "Reading/Writing",
+            "talking",
+            "analytical"
+        ]
+    },
+    {
+        "code": "48370",
+        "name": "Road and Transport Engineering",
+        "credits": 6,
+        "availability": [
+            "Spring",
+            "Autumn"
+        ],
+        "requisites": [
+            "48310"
+        ],
+        "antirequisites": [],
+        "mincp": null,
+        "interests": [
+            "science",
+            "creativity",
+            "Reading/Writing"
+        ]
+    },
+    {
+        "code": "41184",
+        "name": "Secure Programming and Penetration Testing",
+        "credits": 6,
+        "availability": [
+            "Autumn"
+        ],
+        "requisites": [
+            "31251",
+            "41012"
+        ],
+        "antirequisites": [],
+        "mincp": null,
+        "interests": [
+            "programming",
+            "analytical",
+            "Reading/Writing"
+        ]
+    },
+    {
+        "code": "41014",
+        "name": "Sensors and Control for Mechatronic Systems",
+        "credits": 6,
+        "availability": [
+            "Spring"
+        ],
+        "requisites": [
+            "48622"
+        ],
+        "antirequisites": [],
+        "mincp": null,
+        "interests": [
+            "Technology",
+            "creativity",
+            "discussion"
+        ]
+    },
+    {
+        "code": "48540",
+        "name": "Signals and Systems",
+        "credits": 6,
+        "availability": [
+            "Spring",
+            "Autumn"
+        ],
+        "requisites": [
+            "48520"
+        ],
+        "antirequisites": [
+            "41090"
+        ],
+        "mincp": null,
+        "interests": [
+            "Maths",
+            "discussion",
+            "science",
+            "Technology"
+        ]
+    },
+    {
+        "code": "42913",
+        "name": "Social and Information Network Analysis",
+        "credits": 6,
+        "availability": [
+            "Autumn"
+        ],
+        "requisites": [
+            ["31250"],
+            ["32130","36106"]
+        ],
+        "antirequisites": [],
+        "mincp": 120,
+        "interests": [
+            "social media",
+            "analytical",
+            "Technology",
+            "discussion"
+        ]
+    },
+    {
+        "code": "48433",
+        "name": "Software Architecture",
+        "credits": 6,
+        "availability": [
+            "Spring"
+        ],
+        "requisites": [
+            "48440",
+            "31469",
+            "31279",
+            "31244",
+            "48024"
+        ],
+        "antirequisites": [
+            "31278"
+        ],
+        "mincp": null,
+        "interests": [
+            "programming",
+            "analytical",
+            "discussion"
+        ]
+    },
+    {
+        "code": "41905",
+        "name": "Software Defined Networks",
+        "credits": 6,
+        "availability": [
+            "Autumn"
+        ],
+        "requisites": [
+            "31277",
+            "48740",
+            "41039"
+        ],
+        "antirequisites": [],
+        "mincp": null,
+        "interests": [
+            "programming",
+            "Technology",
+            "analytical"
+        ]
+    },
+    {
+        "code": "41113",
+        "name": "Software Development Studio",
+        "credits": 6,
+        "availability": [
+            "Spring",
+            "Autumn"
+        ],
+        "requisites": [
+            "31257",
+            "41025",
+            "41192"
+        ],
+        "antirequisites": [],
+        "mincp": null,
+        "interests": [
+            "talking",
+            "programming",
+            "creativity"
+        ]
+    },
+    {
+        "code": "48330",
+        "name": "Soil Behaviour",
+        "credits": 6,
+        "availability": [
+            "Spring",
+            "Autumn"
+        ],
+        "requisites": [
+            "48331",
+            "48330",
+            "48331"
+        ],
+        "antirequisites": [],
+        "mincp": null,
+        "interests": [
+            "nature",
+            "science",
+            "Reading/Writing"
+        ]
+    },
+    {
+        "code": "49133",
+        "name": "Steel and Composite Design",
+        "credits": 6,
+        "availability": [
+            "Spring"
+        ],
+        "requisites": [
+        ],
+        "antirequisites": [],
+        "mincp": 120,
+        "interests": [
+            "creativity",
+            "science",
+            "discussion"
+        ]
+    },
+    {
+        "code": "48366",
+        "name": "Steel and Timber Design",
+        "credits": 6,
+        "availability": [
+            "Spring",
+            "Autumn"
+        ],
+        "requisites": [
+            "48349",
+            "48352",
+            "48366",
+            "48349",
+            "48352",
+            "48342"
+        ],
+        "antirequisites": [
+            "48342"
+        ],
+        "mincp": null,
+        "interests": [
+            "discussion",
+            "science",
+            "Reading/Writing"
+        ]
+    },
+    {
+        "code": "48349",
+        "name": "Structural Analysis",
+        "credits": 6,
+        "availability": [
+            "Spring",
+            "Autumn"
+        ],
+        "requisites": [
+            "48331",
+            "33230"
+        ],
+        "antirequisites": [
+            "48342"
+        ],
+        "mincp": null,
+        "interests": [
+            "Maths",
+            "science",
+            "Reading/Writing",
+            "analytical"
+        ]
+    },
+    {
+        "code": "49134",
+        "name": "Structural Dynamics and Earthquake Engineering",
+        "credits": 6,
+        "availability": [
+            "Spring"
+        ],
+        "requisites": [
+        ],
+        "antirequisites": [],
+        "mincp": 120,
+        "interests": [
+            "science",
+            "nature",
+            "discussion",
+            "analytical"
+        ]
+    },
+    {
+        "code": "41152",
+        "name": "Summer Studio C",
+        "credits": 6,
+        "availability": [
+            "Summer"
+        ],
+        "requisites": [
+
+        ],
+        "antirequisites": [],
+        "mincp": 24,
+        "interests": [
+            "discussion",
+            "talking",
+            "creativity"
+        ]
+    },
+    {
+        "code": "41125",
+        "name": "Sustainable Energy Studio",
+        "credits": 6,
+        "availability": [],
+        "requisites": [],
+        "antirequisites": [],
+        "mincp": 18,
+        "interests": [
+            "discussion",
+            "talking",
+            "creativity",
+            "science",
+            "nature"
+        ]
+    },
+    {
+        "code": "41182",
+        "name": "System Security",
+        "credits": 6,
+        "availability": [
+            "Autumn"
+        ],
+        "requisites": [
+            "31268",
+            "48410",
+            "41082",
+            "65325",
+            "31257",
+            "41092",
+            "31266",
+            "48023",
+            "41039",
+            "48430"
+        ],
+        "antirequisites": [],
+        "mincp": null,
+        "interests": [
+            "Technology",
+            "programming",
+            "creativity"
+        ]
+    },
+    {
+        "code": "49016",
+        "name": "Technology and Innovation Management",
+        "credits": 6,
+        "availability": [
+            "Autumn"
+        ],
+        "requisites": [
+        ],
+        "antirequisites": [
+            ["48080"],
+            ["48081"]
+        ],
+        "mincp": 120,
+        "interests": [
+            "Technology",
+            "science",
+            "Reading/Writing",
+            "discussion"
+        ]
+    },
+    {
+        "code": "49102",
+        "name": "Traffic and Transportation",
+        "credits": 6,
+        "availability": [
+            "Spring"
+        ],
+        "requisites": [],
+        "antirequisites": [],
+        "mincp": 120,
+        "interests": [
+            "helping",
+            "nature",
+            "discussion",
+            "creativity"
+        ]
+    },
+    {
+        "code": "49328",
+        "name": "Turbomachines",
+        "credits": 6,
+        "availability": [
+            "Autumn"
+        ],
+        "requisites": [
+        ],
+        "antirequisites": [],
+        "mincp": 120,
+        "interests": [
+            "Technology",
+            "science",
+            "analytical",
+            "creativity"
+        ]
+    },
+    {
+        "code": "49107",
+        "name": "Urban Stormwater Design",
+        "credits": 6,
+        "availability": [
+            "Autumn"
+        ],
+        "requisites": [],
+        "antirequisites": [],
+        "mincp": 120,
+        "interests": [
+            "nature",
+            "science",
+            "helping",
+            "discussion"
+        ]
+    },
+    {
+        "code": "49123",
+        "name": "Waste and Pollution Management",
+        "credits": 6,
+        "availability": [
+            "Autumn"
+        ],
+        "requisites": [
+        ],
+        "antirequisites": [],
+        "mincp": 120,
+        "interests": [
+            "nature",
+            "science",
+            "creativity",
+            "Reading/Writing"
+        ]
+    },
+    {
+        "code": "48840",
+        "name": "Water Supply and Wastewater Engineering",
+        "credits": 6,
+        "availability": [
+            "Autumn"
+        ],
+        "requisites": [
+            "65111"
+        ],
+        "antirequisites": [],
+        "mincp": null,
+        "interests": [
+            "science",
+            "nature",
+            "analytical",
+            "discussion"
+        ]
+    },
+    {
+        "code": "48881",
+        "name": "Water and Environmental Design",
+        "credits": 6,
+        "availability": [
+            "Spring"
+        ],
+        "requisites": [
+            "48362",
+            "48821"
+        ],
+        "antirequisites": [],
+        "mincp": 144,
+        "interests": [
+            "science",
+            "nature",
+            "creativity",
+            "talking",
+            "discussion"
+        ]
+    },
+    {
+        "code": "49227",
+        "name": "Wireless Sensor Networks",
+        "credits": 6,
+        "availability": [
+            "Autumn"
+        ],
+        "requisites": [],
+        "antirequisites": [],
+        "mincp": 120,
+        "interests": [
+            "Technology",
+            "helping",
+            "talking",
+            "discussion"
+        ]
+    }
 ]
