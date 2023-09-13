@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Course Recommendation System</title>
-  <link rel="stylesheet" href="getCR.css">
+  <link rel="stylesheet" href="master.css">
   <script src="getCR.js"></script>
   <!-- <script src="index.js"></script> -->
   <script src="https://kit.fontawesome.com/20b352c5e7.js" crossorigin="anonymous"></script>
@@ -14,66 +14,89 @@
 </head>
 
 <body>
-  <nav>
-    <div class="nav__container">
-      <img src="assets/cr__logo.png" alt="Logo" class="logo">
-      <h1 class="nav__h1">Pick your interest</h1>
-    </div>
-  </nav>
-
+  <section id="landing">
+    <nav>
+      <div class="nav__container">
+        <img class="logo" src="./assets/cr__logo.png" alt="">
+        <h1 class="nav__h1">Pick your interest</h1>
+        <ul class="nav__links">
+          <li><a href="./index.html" class="nav__link">Home</a></li>
+        </ul>
+        <button class="btn__menu">
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="menu__backdrop">
+          <button class="btn__menu btn__menu--close" >
+            <i class="fas fa-times"></i>
+          </button>
+          <ul class="menu__links">
+            <li class="menu__list">
+              <a href="#" class="menu__link" >Home</a>
+            </li>
+            <li class="menu__list">
+              <a href="#features" class="menu__link" >Books</a>
+            </li>
+            <li class="menu__list">
+              <a class="menu__link no-cursor" >Contacts</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
 
 
   <section id="interests">
-    <div class="container">
+    <div class="container--getCRsty">
             <!-- Row 1 -->
-        <div class="row">
-                <div class="interest">
-                    <div class="emoji">🧠</div>
+        <div class="row--getCRsty">
+                <div class="interest--getCRsty">
+                    <div class="emoji--getCRsty">🧠</div>
                     <p>Analytical</p>
                     <input type="checkbox" id="checkbox1">
                     <label for="checkbox1">Choose</label>
                 </div>
-                <div class="interest">
-                    <div class="emoji">🎨</div>
+                <div class="interest--getCRsty">
+                    <div class="emoji--getCRsty">🎨</div>
                     <p>Creativity</p>
                     <input type="checkbox" id="checkbox2">
                     <label for="checkbox2">Choose</label>
                 </div>
-                <div class="interest">
-                    <div class="emoji">💬</div>
+                <div class="interest--getCRsty">
+                    <div class="emoji--getCRsty">💬</div>
                     <p>Discussion</p>
                     <input type="checkbox" id="checkbox3">
                     <label for="checkbox3">Choose</label>
                 </div>
-                <div class="interest">
-                    <div class="emoji">📚</div>
+                <div class="interest--getCRsty">
+                    <div class="emoji--getCRsty">📚</div>
                     <p>English</p>
                     <input type="checkbox" id="checkbox4">
                     <label for="checkbox4">Choose</label>
                 </div>
         </div>
 
-        <div class="row">
-                <div class="interest">
-                    <div class="emoji">🗺️</div>
+        <div class="row--getCRsty">
+                <div class="interest--getCRsty">
+                    <div class="emoji--getCRsty">🗺️</div>
                     <p>Exploration</p>
                     <input type="checkbox" id="checkbox5">
                     <label for="checkbox5">Choose</label>
                 </div>
-                <div class="interest">
-                    <div class="emoji">💪</div>
+                <div class="interest--getCRsty">
+                    <div class="emoji--getCRsty">💪</div>
                     <p>Fitness/Gym</p>
                     <input type="checkbox" id="checkbox6">
                     <label for="checkbox6">Choose</label>
                 </div>
-                <div class="interest">
-                    <div class="emoji">🤝</div>
+                <div class="interest--getCRsty">
+                    <div class="emoji--getCRsty">🤝</div>
                     <p>Helping</p>
                     <input type="checkbox" id="checkbox7">
                     <label for="checkbox7">Choose</label>
                 </div>
-                <div class="interest">
-                    <div class="emoji">🏛️</div>
+                <div class="interest--getCRsty">
+                    <div class="emoji--getCRsty">🏛️</div>
                     <p>History</p>
                     <input type="checkbox" id="checkbox8">
                     <label for="checkbox8">Choose</label>
@@ -81,27 +104,27 @@
         </div>
             
             
-        <div class="row">
-                <div class="interest">
-                    <div class="emoji">➗</div>
+        <div class="row--getCRsty">
+                <div class="interest--getCRsty">
+                    <div class="emoji--getCRsty">➗</div>
                     <p>Maths</p>
                     <input type="checkbox" id="checkbox9">
                     <label for="checkbox9">Choose</label>
                 </div>
-                <div class="interest">
-                    <div class="emoji">🧘</div>
+                <div class="interest--getCRsty">
+                    <div class="emoji--getCRsty">🧘</div>
                     <p>Meditation</p>
                     <input type="checkbox" id="checkbox10">
                     <label for="checkbox10">Choose</label>
                 </div>
-                <div class="interest">
-                    <div class="emoji">🌳</div>
+                <div class="interest--getCRsty">
+                    <div class="emoji--getCRsty">🌳</div>
                     <p>Nature</p>
                     <input type="checkbox" id="checkbox11">
                     <label for="checkbox11">Choose</label>
                 </div>
-                <div class="interest">
-                    <div class="emoji">📰</div>
+                <div class="interest--getCRsty">
+                    <div class="emoji--getCRsty">📰</div>
                     <p>News</p>
                     <input type="checkbox" id="checkbox12">
                     <label for="checkbox12">Choose</label>
@@ -109,54 +132,54 @@
         </div>
 
       
-        <div class="row">
-                <div class="interest">
-                    <div class="emoji">🍏</div>
+        <div class="row--getCRsty">
+                <div class="interest--getCRsty">
+                    <div class="emoji--getCRsty">🍏</div>
                     <p>Nutrition/Health</p>
                     <input type="checkbox" id="checkbox13">
                     <label for="checkbox13">Choose</label>
                 </div>
-                <div class="interest">
-                    <div class="emoji">💻</div>
+                <div class="interest--getCRsty">
+                    <div class="emoji--getCRsty">💻</div>
                     <p>Programming</p>
                     <input type="checkbox" id="checkbox14">
                     <label for="checkbox14">Choose</label>
                 </div>
-                <div class="interest">
-                    <div class="emoji">📖</div>
+                <div class="interest--getCRsty">
+                    <div class="emoji--getCRsty">📖</div>
                     <p>Reading/Writing</p>
                     <input type="checkbox" id="checkbox15">
                     <label for="checkbox15">Choose</label>
                 </div>
-                <div class="interest">
-                    <div class="emoji">🔬</div>
+                <div class="interest--getCRsty">
+                    <div class="emoji--getCRsty">🔬</div>
                     <p>Science</p>
                     <input type="checkbox" id="checkbox16">
                     <label for="checkbox16">Choose</label>
                 </div>
         </div>
             
-        <div class="row">
-                <div class="interest">
-                    <div class="emoji">📱</div>
+        <div class="row--getCRsty">
+                <div class="interest--getCRsty">
+                    <div class="emoji--getCRsty">📱</div>
                     <p>Social Media</p>
                     <input type="checkbox" id="checkbox17">
                     <label for="checkbox17">Choose</label>
                 </div>
-                <div class="interest">
-                    <div class="emoji">🚀</div>
+                <div class="interest--getCRsty">
+                    <div class="emoji--getCRsty">🚀</div>
                     <p>Space</p>
                     <input type="checkbox" id="checkbox18">
                     <label for="checkbox18">Choose</label>
                 </div>
-                <div class="interest">
-                    <div class="emoji">🗣️</div>
+                <div class="interest--getCRsty">
+                    <div class="emoji--getCRsty">🗣️</div>
                     <p>Talking</p>
                     <input type="checkbox" id="checkbox19">
                     <label for="checkbox19">Choose</label>
                 </div>
-                <div class="interest">
-                    <div class="emoji">📱</div>
+                <div class="interest--getCRsty">
+                    <div class="emoji--getCRsty">📱</div>
                     <p>Technology</p>
                     <input type="checkbox" id="checkbox20">
                     <label for="checkbox20">Choose</label>
@@ -165,9 +188,9 @@
 
 </section>
 
-<div id="next-button-container">
-    <button class="btn" onclick="nextBtn()">Next</button>
-</div>
+    <div id="next-button-container--getCRsty">
+        <button class="btn--getCRsty" onclick="nextBtn()">Next</button>
+    </div>
 
 </body>
 
