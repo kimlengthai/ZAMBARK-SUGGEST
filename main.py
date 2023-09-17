@@ -30,6 +30,9 @@ class Result(BaseModel):
 
 class User(BaseModel):
     username: str
+    password: str
+    email: str
+
 
 def fake_decode_token(token):
     return User(
