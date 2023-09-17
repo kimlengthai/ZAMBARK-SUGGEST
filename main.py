@@ -33,7 +33,6 @@ class User(BaseModel):
     password: str
     email: str
 
-
 def fake_decode_token(token):
     return User(
         username=token + "fakedecoded"
