@@ -1,4 +1,6 @@
 import json
+
+import bcrypt
 import motor.motor_asyncio
 import os
 import uvicorn
@@ -8,7 +10,7 @@ from fastapi import FastAPI, Body, HTTPException, status, Query, Depends
 from fastapi.encoders import jsonable_encoder
 from fastapi.responses import Response, JSONResponse
 from fastapi.security import OAuth2PasswordBearer
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, Field, constr, EmailStr, validator
 from typing import Annotated
 
 load_dotenv()
@@ -29,9 +31,10 @@ class Result(BaseModel):
     matches: int
 
 class User(BaseModel):
-    username: str
-    password: str
-    email: str
+    username: constr(min_length=4)
+    password: constr(min_length=8)
+    email: EmailStr
+
 
 def fake_decode_token(token):
     return User(
@@ -42,6 +45,20 @@ async def get_current_user(token: Annotated[str, Depends(oauth2Scheme)]):
     user = fake_decode_token(token)
     return user
 
+async def isuserdupe(username: str):
+    user = await client["user-data"]["users"].find_one({"username": username})
+    return user is None
+
+
+async def isemaildupe(email: str):
+    user = await client["user-data"]["users"].find_one({"email": email})
+    return user is None
+
+
+def hashedpass(password: str):
+    salt = bcrypt.gensalt()
+    hashed = bcrypt.hashpw(password.encode('utf-8'), salt)
+    return hashed
 @app.get("/")
 async def test_atlas_connection():
     try:
@@ -77,3 +94,32 @@ async def get_recommendations(faculty: str,
 @app.get("/usertest/")
 async def user_test(token: Annotated[str, Depends(get_current_user)]):
     return {"token": token}
+
+async def userdata(username: str, hashed: str, email: str):
+    user_data = {
+        "username": username,
+        "password": hashed.decode('utf-8'),
+        "email": email
+    }
+    result = await client["user-data"]["users"].insert_one(user_data)
+    if result.acknowledged:
+        user_data["_id"] = str(result.inserted_id)
+        return user_data
+    return None
+
+@app.post("/register/", response_model=User)
+async def register_user(user_data: User):
+    if not await isuserdupe(user_data.username):
+        raise HTTPException(status_code=400, detail="This username is taken")
+
+
+    if not await isemaildupe(user_data.email):
+        raise HTTPException(status_code=400, detail="This email is already in use")
+
+    hashed = hashedpass(user_data.password)
+    created_user = await userdata(user_data.username, hashed, user_data.email)
+
+    if created_user is True:
+        return created_user
+
+    raise HTTPException(status_code=500, detail="Failed to create user")
