@@ -378,3 +378,68 @@ footer {
     margin-bottom: 24px;
   }
 }
+
+/* modal  */
+
+.modal{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#content_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 500px;
+  margin: 0 auto;
+}
+
+#form_container {
+  background-color: #fff;
+  padding: 20px;
+  text-align: center;
+  height: 250px;
+}
+
+#form_header {
+  color: #0078d4;
+  font-size: 24px;
+  font-weight: 900;
+  margin: 0;
+}
+
+#form_content_inner_container {
+  margin-top: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 300px;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+#button_container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttons__container{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.switch__container{
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  align-items: center;
+}

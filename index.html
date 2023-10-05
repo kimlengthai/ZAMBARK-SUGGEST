@@ -8,7 +8,14 @@
   <title>Course Recommendation System</title>
   <link rel="stylesheet" href="master.css">
   <script src="https://kit.fontawesome.com/20b352c5e7.js" crossorigin="anonymous"></script>
-  <script src="index.js"></script>
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap" rel="stylesheet">
+  <!-- Our stylesheet -->
+  <!-- <link rel="stylesheet" type="text/css" href="signModal.css"> -->
 </head>
 
 <body>
@@ -18,46 +25,81 @@
         <img class="logo" src="./assets/cr__logo.png" alt="">
         <ul class="nav__links">
           <li><a href="./index.html" class="nav__link">Home</a></li>
-          <!-- <li><a href="#" class="nav__link">About</a></li> -->
-          <li><a href="#" class="nav__link nav__link--primary">About</a></li>
+          <li><a onclick="modalOpen()" class="nav__link">Login</a></li>
         </ul>
         <button class="btn__menu">
           <i class="fas fa-bars"></i>
         </button>
-        <div class="menu__backdrop">
-          <button class="btn__menu btn__menu--close" >
-            <i class="fas fa-times"></i>
-          </button>
-          <ul class="menu__links">
-            <li class="menu__list">
-              <a href="#" class="menu__link" >Home</a>
-            </li>
-            <li class="menu__list">
-              <a href="#features" class="menu__link" >Books</a>
-            </li>
-            <li class="menu__list">
-              <a class="menu__link no-cursor" >Contacts</a>
-            </li>
-          </ul>
-        </div>
+
       </div>
     </nav>
     <header>
+      <div id="modal" class="modal popup">
+        <div id="form_container">
+            <div id="form_header_container">
+                <h2 id="form_header"> Login</h2>
+            </div>
+            
+            
+            <div id="form_content_container">
+                <div id="form_content_inner_container">
+                    <!-- <input class="inputfield" type="text" id="full_name" placeholder="Full name"> -->
+                    <input class="inputfield" type="email" id="email" placeholder="Email">
+                    <input class="inputfield" type="password" id="password" placeholder="Password">
+                    
+                    <div class="buttons__container">
+                        
+                        <div id="button_container">
+                            <button onclick="login()">Login</button>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <div id="form_container">
+            <div id="form_header_container">
+                <h2 id="form_header">Register</h2>
+            </div>
+            
+            
+            <div id="form_content_container">
+                <div id="form_content_inner_container">
+                    <input class="inputfield" type="text" id="full_nameR" placeholder="Full name">
+                    <input class="inputfield" type="email" id="emailR" placeholder="Email">
+                    <input class="inputfield" type="password" id="passwordR" placeholder="Password">
+                    
+                    <div class="buttons__container">
+                        
+                        <div id="button_container">
+                            <button onclick="register()">Register</button>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+  
+  
+    </div>
       <div class="header__container">
         <div class="header__description">
           <h1>Australia's best College!</h1>
           <h2>Find your dream course with <span class="blue">College</span></h2>
           <a href="./getCR.html">
-            <button class="btn">Get Your Course Recommendation</button>
+            <button id="crPopup" class="btn crPopup">Get Your Course Recommendation</button>
           </a>
         </div>
         <figure class="header__img--wrapper">
-          <img src="./assets/Undraw_Books.svg" alt="">
+          <!-- <img src="./assets/Undraw_Books.svg" alt=""> -->
         </figure>
       </div>
     </header>
   </section>
+  <div id="content_container">
 
+</div>
   <main>
     <section id="highlights">
       <div class="container">
@@ -105,22 +147,18 @@
     </section>
 
 
-  <footer>
-    <div class="container">
-      <div class="row row__column">
-        <a href="#">
-          <figure class="footer__logo">
-            <img src="./assets/cr__logo.png" class="footer__logo--img" alt="">
-          </figure>
-        </a>
-        <div class="footer__list">
-          <a href="#" class="footer__link">Home</a>
-          <a class="footer__link no-cursor">About</a>
-        </div>
-        <div class="footer__copyright">Copyright Of College???; 2023</div>
-      </div>
-    </div>
-  </footer>
+
 </body>
+
+<script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+        
+<!-- TODO: Add SDKs for Firebase products that you want to use
+ https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-database.js"></script>
+
+<!-- Our script must be loaded after firebase references -->
+<script src="signModal.js"></script>
+<!-- <script src="index.js"></script> -->
 
 </html>
