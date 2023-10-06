@@ -1807,9 +1807,9 @@
         "mincp": 0,
         "interests": ["analytical", "creativity", "discussion"]
       }
-  ]
+  ],
 
-]
+
 //feit
 [
     {
@@ -4494,4 +4494,5 @@
             "discussion"
         ]
     }
+]
 ]
