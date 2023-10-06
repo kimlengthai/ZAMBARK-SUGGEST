@@ -2,12 +2,12 @@ AWSTemplateFormatVersion: '2010-09-09'
 Transform: AWS::Serverless-2016-10-31
 Description: Python file including external libraries
 Resources:
- zambark-crs:
-  Type: AWS::Serverless::Function
-  Properties:
-   Handler: main.handler
-   Runtime: python3.11
-   FunctionName: zambark-crs
-   AutoPublishAlias: live
-   DeploymentPreference:
+  ZambarkCRS:
+    Type: AWS::Serverless::Function
+    Properties:
+    Handler: main.handler
+    Runtime: python3.11
+    FunctionName: zambark-crs
+    AutoPublishAlias: live
+    DeploymentPreference:
       Type: AllAtOnce
