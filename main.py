@@ -13,7 +13,7 @@ from typing import Annotated
 load_dotenv()
 ATLAS_URI = os.getenv("ATLAS_URI")
 
-app = FastAPI()
+app = FastAPI(title="Zambark CRS API", root_path="/live")
 handler = Mangum(app)
 
 client = motor.motor_asyncio.AsyncIOMotorClient(ATLAS_URI)
