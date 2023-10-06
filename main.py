@@ -17,6 +17,7 @@ app = FastAPI()
 
 client = motor.motor_asyncio.AsyncIOMotorClient(ATLAS_URI)
 subjects = client["subjects"]
+projectcollection = subjects["hsc"]
 
 # Commented lines represent deprecated functionality for university electives
 
@@ -29,10 +30,10 @@ class Result(BaseModel):
     matches: int
 
 @app.get("/subjects/{faculty}/", response_model=list[Result])
-async def get_recommendations(faculty: str,
+async def get_recommendations(
                               interests: Annotated[list[str], Query(min_length=3)]):
                             #   availability: Annotated[list[str], Query()] = ["autumn", "spring", "summer"]):
-    if len(result := await subjects[faculty].aggregate([
+    if len(result := await projectcollection.aggregate([
         # {"$match": {"availability": {"$in": availability}}},
         {"$match": {"interests": {"$in": interests}}},
         {"$project": {
