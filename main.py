@@ -14,10 +14,10 @@ load_dotenv()
 ATLAS_URI = os.getenv("ATLAS_URI")
 
 app = FastAPI()
+handler = Mangum(app)
 
 client = motor.motor_asyncio.AsyncIOMotorClient(ATLAS_URI)
 subjects = client["subjects"]
-projectcollection = subjects["hsc"]
 
 # Commented lines represent deprecated functionality for university electives
 
@@ -29,11 +29,19 @@ class Result(BaseModel):
     interests: list[str]
     matches: int
 
+@app.get("/")
+async def test_atlas_connection():
+    try:
+        await client.admin.command('ping')
+        return JSONResponse(status_code=status.HTTP_200_OK, content={"detail": str(await client.server_info())})
+    except Exception as e:
+        raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail=str(e))
+
 @app.get("/subjects/{faculty}/", response_model=list[Result])
-async def get_recommendations(
+async def get_recommendations(faculty: str,
                               interests: Annotated[list[str], Query(min_length=3)]):
                             #   availability: Annotated[list[str], Query()] = ["autumn", "spring", "summer"]):
-    if len(result := await projectcollection.aggregate([
+    if len(result := await subjects[faculty].aggregate([
         # {"$match": {"availability": {"$in": availability}}},
         {"$match": {"interests": {"$in": interests}}},
         {"$project": {
@@ -52,5 +60,3 @@ async def get_recommendations(
     ]).to_list(length=3)) > 0:
         return JSONResponse(status_code=status.HTTP_200_OK, content=json.loads(json_util.dumps(result)))
     raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail=f"No matching courses found")
-
-handler = Mangum(app)

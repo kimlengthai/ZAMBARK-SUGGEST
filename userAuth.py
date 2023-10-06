@@ -34,14 +34,6 @@ def hashedpass(password: str):
     hashed = bcrypt.hashpw(password.encode('utf-8'), salt)
     return hashed
 
-@app.get("/")
-async def test_atlas_connection():
-    try:
-        await client.admin.command('ping')
-        return JSONResponse(status_code=status.HTTP_200_OK, content={"detail": str(await client.server_info())})
-    except Exception as e:
-        raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail=str(e))
-
 @app.get("/usertest/")
 async def user_test(token: Annotated[str, Depends(get_current_user)]):
     return {"token": token}
