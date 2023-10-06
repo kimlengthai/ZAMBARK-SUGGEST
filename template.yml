@@ -5,9 +5,9 @@ Resources:
   ZambarkCRS:
     Type: AWS::Serverless::Function
     Properties:
-    Handler: main.handler
-    Runtime: python3.11
-    FunctionName: zambark-crs
-    AutoPublishAlias: live
-    DeploymentPreference:
-      Type: AllAtOnce
+      Handler: main.handler
+      Runtime: python3.11
+      FunctionName: zambark-crs
+      AutoPublishAlias: live
+      DeploymentPreference:
+        Type: AllAtOnce
