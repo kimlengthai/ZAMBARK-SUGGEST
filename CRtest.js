@@ -23,10 +23,12 @@ async function main (){
     
     // Remove the trailing '&' from interestName
     interestName = interestName.slice(0, -1);
-    console.log(interestName)
+    // console.log(interestName)
     
+    // const databaseLink = `https://17w1ig90pc.execute-api.ap-southeast-2.amazonaws.com/live/subjects/hsc/?${interestName}`
+    // console.log(databaseLink)
     // Now you can make the fetch request using the constructed URL
-    const courses = await fetch(`https://course-recommendation-system.azurewebsites.net/subjects/law/?${interestName}`) 
+    const courses = await fetch(`https://17w1ig90pc.execute-api.ap-southeast-2.amazonaws.com/live/subjects/hsc/?${interestName}`) 
     const coursesListEl = document.querySelector(".row");   
     const coursesData = await courses.json()
     coursesListEl.innerHTML = coursesData.map((course) => userHTML(course)).join()
