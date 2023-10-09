@@ -5,6 +5,7 @@ from bson import ObjectId, json_util
 from dotenv import load_dotenv
 from fastapi import FastAPI, Body, HTTPException, status, Query, Depends
 from fastapi.encoders import jsonable_encoder
+from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import Response, JSONResponse
 from mangum import Mangum
 from pydantic import BaseModel, Field, constr, EmailStr, validator
@@ -14,6 +15,14 @@ load_dotenv()
 ATLAS_URI = os.getenv("ATLAS_URI")
 
 app = FastAPI(title="Zambark CRS API", root_path="/live")
+origins = ["http://zambark.vercel.app","https://zambark.vercel.app"]
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=origins,
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"]
+)
 handler = Mangum(app)
 
 client = motor.motor_asyncio.AsyncIOMotorClient(ATLAS_URI)
