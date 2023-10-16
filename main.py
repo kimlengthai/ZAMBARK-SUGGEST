@@ -84,13 +84,13 @@ async def get_recommendations(faculty: str,
         return JSONResponse(status_code=status.HTTP_200_OK, content=json.loads(json_util.dumps(result)))
     raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail=f"No matching courses found")
 
-# @app.post("/users/update/")
-# async def append_recommendation_history(update: Update):
-#     result = await users.update_one(
-#         {"username": update.user},
-#         {"$push": {"history": update.rec}},
-#         upsert=True
-#     )
-#     if result.acknowledged:
-#         return JSONResponse(status_code=status.HTTP_200_OK, content=json.loads(json_util.dumps(result.raw_result)))
-#     raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail=f"An error occured trying to push the update. Is the request correct?")
+@app.post("/users/update/")
+async def append_recommendation_history(update: Update):
+    result = await users.update_one(
+        {"username": update.user},
+        {"$push": {"history": update.rec}},
+        upsert=True
+    )
+    if result.acknowledged:
+        return JSONResponse(status_code=status.HTTP_200_OK, content=json.loads(json_util.dumps(result.raw_result)))
+    raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail=f"An error occured trying to push the update. Is the request correct?")
