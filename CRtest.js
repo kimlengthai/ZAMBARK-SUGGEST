@@ -29,7 +29,7 @@ async function main (){
     // console.log(databaseLink)
     // Now you can make the fetch request using the constructed URL
     const courses = await fetch(`https://17w1ig90pc.execute-api.ap-southeast-2.amazonaws.com/live/subjects/hsc/?${interestName}`) 
-    const coursesListEl = document.querySelector(".row");   
+    const coursesListEl = document.querySelector(".row__subjects");   
     const coursesData = await courses.json()
     coursesListEl.innerHTML = coursesData.map((course) => userHTML(course)).join()
 

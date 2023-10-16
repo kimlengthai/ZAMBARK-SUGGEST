@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Course Recommendation System</title>
-  <link rel="stylesheet" href="BRstyles.css">
+  <link rel="stylesheet" href="master.css">
   <script src="https://kit.fontawesome.com/20b352c5e7.js" crossorigin="anonymous"></script>
   <script src="CRtest.js"></script>
 </head>
@@ -28,13 +28,67 @@
             <div class="header__description">
                 <h3>Here are your Most Recommended <span class="blue">Subjects</span></h3>
             </div>
+
+            <div class="ask__user">
+              <p class="ask__user-text" > Would you like to save this to your profile?</p>
+              <button class="ask__user-button" onclick="modalOpen()"> IF SO CLICK HERE </button>
+            </div>
+
+            <div id="modal" class="modal popup">
+              <div id="form_container">
+                  <div id="form_header_container">
+                      <h2 id="form_header"> Login</h2>
+                  </div>
+                  
+                  
+                  <div id="form_content_container">
+                      <div id="form_content_inner_container">
+                          <!-- <input class="inputfield" type="text" id="full_name" placeholder="Full name"> -->
+                          <input class="inputfield" type="email" id="email" placeholder="Email">
+                          <input class="inputfield" type="password" id="password" placeholder="Password">
+                          
+                          <div class="buttons__container">
+                              
+                              <div id="button_container">
+                                  <button onclick="login()">Login</button>
+                              </div>
+                              
+                          </div>
+                      </div>
+                  </div>
+                  
+              </div>
+              <div id="form_container">
+                  <div id="form_header_container">
+                      <h2 id="form_header">Register</h2>
+                  </div>
+                  
+                  
+                  <div id="form_content_container">
+                      <div id="form_content_inner_container">
+                          <input class="inputfield" type="text" id="full_nameR" placeholder="Full name">
+                          <input class="inputfield" type="email" id="emailR" placeholder="Email">
+                          <input class="inputfield" type="password" id="passwordR" placeholder="Password">
+                          
+                          <div class="buttons__container">
+                              
+                              <div id="button_container">
+                                  <button onclick="register()">Register</button>
+                              </div>
+                              
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
         </div>
     </header>
   </section>
   <main>
     <section id="highlights">
         <div class="container">
-            <div class="row">
+            <div class="row__subjects">
                 <div class="column">
                     <div class="card">
                         <h2>Subject</h2>
@@ -61,6 +115,15 @@
         </div>
     </section>
     
-
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+        
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-database.js"></script>
+    
+    <!-- Our script must be loaded after firebase references -->
+    <script src="signModal.js"></script>
+    <!-- <script src="index.js"></script> -->
 
 </html>

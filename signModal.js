@@ -99,7 +99,20 @@ function login () {
     database_ref.child('users/' + user.uid).update(user_data)
 
     // DOne
-    alert('User Logged In!!')
+    alert('User Logged In and Subject Preferences are now Saved!')
+
+
+    
+
+
+
+
+
+
+
+
+
+
 
     let crPopup = document.getElementById("crPopup");
     crPopup.classList.remove("crPopup");
