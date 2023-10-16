@@ -14,8 +14,8 @@ from typing import Annotated
 load_dotenv()
 ATLAS_URI = os.getenv("ATLAS_URI")
 
-app = FastAPI(title="Zambark CRS API", root_path="/live")
-origins = ["http://zambark.vercel.app","https://zambark.vercel.app"]
+app = FastAPI(title="Zambark CRS API")  # , root_path="/live"
+origins = ["*"]     # "http://zambark.vercel.app","https://zambark.vercel.app"
 app.add_middleware(
     CORSMiddleware,
     allow_origins=origins,
@@ -27,6 +27,8 @@ handler = Mangum(app)
 
 client = motor.motor_asyncio.AsyncIOMotorClient(ATLAS_URI)
 subjects = client["subjects"]
+user_data = client["user-data"]
+users = user_data["users"]
 
 # Commented lines represent deprecated functionality for university electives
 
@@ -35,8 +37,16 @@ class Result(BaseModel):
     name: str
     # credits: int
     # availability: list[str]
+    description: str
+    difficulty: int
+    review: str
+    image: str
     interests: list[str]
     matches: int
+
+class Update(BaseModel):
+    user: str
+    rec: list[str]
 
 @app.get("/")
 async def test_atlas_connection():
@@ -58,6 +68,10 @@ async def get_recommendations(faculty: str,
             "name": 1,
             # "credits": 1,
             # "availability": 1,
+            "description": 1,
+            "difficulty": 1,
+            "review": 1,
+            "image": 1,
             "interests": 1,
             "matches": {
                 "$size": {
@@ -69,3 +83,14 @@ async def get_recommendations(faculty: str,
     ]).to_list(length=3)) > 0:
         return JSONResponse(status_code=status.HTTP_200_OK, content=json.loads(json_util.dumps(result)))
     raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail=f"No matching courses found")
+
+# @app.post("/users/update/")
+# async def append_recommendation_history(update: Update):
+#     result = await users.update_one(
+#         {"username": update.user},
+#         {"$push": {"history": update.rec}},
+#         upsert=True
+#     )
+#     if result.acknowledged:
+#         return JSONResponse(status_code=status.HTTP_200_OK, content=json.loads(json_util.dumps(result.raw_result)))
+#     raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail=f"An error occured trying to push the update. Is the request correct?")
