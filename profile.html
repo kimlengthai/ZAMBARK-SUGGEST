@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Course Recommendation System</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="profile.css">
+    <title>User Profile</title>
+    <link rel="stylesheet" href="master.css">
+
     <script src="https://kit.fontawesome.com/20b352c5e7.js" crossorigin="anonymous"></script>
 </head>
 
@@ -18,85 +18,51 @@
                 <img class="logo" src="./assets/cr__logo.png" alt="">
                 <ul class="nav__links">
                     <li><a href="./index.html" class="nav__link">Home</a></li>
-                    <li><a href="#" class="nav__link nav__link--primary">About</a></li>
                 </ul>
-                <button class="btn__menu">
-                    <i class="fas fa-bars"></i>
-                </button>
-                <div class="menu__backdrop">
-                    <button class="btn__menu btn__menu--close">
-                        <i class="fas fa-times"></i>
-                    </button>
-                    <ul class="menu__links">
-                        <li class="menu__list">
-                            <a href="#" class="menu__link">Home</a>
-                        </li>
-                        <li class="menu__list">
-                            <a href="#features" class="menu__link">Books</a>
-                        </li>
-                        <li class="menu__list">
-                            <a class="menu__link no-cursor">Contacts</a>
-                        </li>
-                    </ul>
-                </div>
             </div>
         </nav>
-        
     </section>
-
-    <main>
-
-        <!-- Upload Picture Section -->
-        <section class="upload-section">
-            <div class="content">
-                <div class="upload-box">
-                    <input type="file" id="imageUpload" accept="image/*" hidden>
-                    <label for="imageUpload">
-                        <div class="image-frame">
-                            <i class="fas fa-pencil-alt"></i>
-                            <img id="uploadedImage" src="" alt="Uploaded Image" hidden>
-                        </div>
-                    </label>
-                </div>
+    
+    <main class="profile__body">
+        
+        <div id="profile-section__PR">
+            <div class="header__description__PR">
+                <h3><span class="blue__PR">User Profile</span></h3>
+                <p> You can see your own subject preferences </p>
             </div>
-        </section>
-    </div>
-    </main>
-
-    <!-- Footer Section -->
-    <footer>
-        <div class="container">
-            <div class="row row__column">
-                <a href="#">
-                    <figure class="footer__logo">
-                        <img src="./assets/cr__logo.png" class="footer__logo--img" alt="">
-                    </figure>
-                </a>
-                <div class="footer__list">
-                    <a href="#" class="footer__link">Home</a>
-                    <a class="footer__link no-cursor">About</a>
-                </div>
-                <div class="footer__copyright">Copyright Of College 2023</div>
+            <div class="header__container__PR">
             </div>
+
+            <div class="container__PR">
+                <h2>Name</h2>
+                <p class="container__PR--email">Name</p>
+            </div>
+            <div class="container__PR">
+                <h2>Email</h2>
+                <p class="container__PR--email">example@email.com</p>
+            </div>
+
+            
         </div>
-    </footer>
-
-    <script>
-        const imageUpload = document.getElementById('imageUpload');
-        const uploadedImage = document.getElementById('uploadedImage');
-
-        imageUpload.addEventListener('change', function() {
-            const file = this.files[0];
-            if (file) {
-                const reader = new FileReader();
-                reader.onload = function(event) {
-                    uploadedImage.setAttribute('src', event.target.result);
-                    uploadedImage.removeAttribute('hidden');
-                }
-                reader.readAsDataURL(file);
-            }
-        });
-    </script>
+        <div class="row__subjects--spacing row__subjects">
+            <div class="column">
+                <div class="card">
+                    <h2 id="subjectName">Subject</h2>
+                    <div class="logoPlace" >
+                        <img src="./assets/loadingGif.gif" alt="">
+                    </div>
+                    
+                    <p class="card__title" > Description </p>
+                    <p id="desc" ></p>
+                    <p class="card__title" > Student Review </p>
+                    <p><br>"<span id="review"> ... </span>"<br></p>
+                    <p><br></p>
+                    <p id="difficulty" >Difficulty Level: </p>
+                </div>
+            </div>
+            
+        </div>
+    </main>
 </body>
 
 </html>

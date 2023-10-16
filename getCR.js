@@ -4,18 +4,27 @@
 
 let interestArray = [];
 
-function getButton(btnName1) {
-    // Retrieve the paragraph using the paragraphId
-    const interest = document.getElementById(btnName1);
+function getButton(btnName) {
+    // Retrieve the paragraph using the btnName
+    const interest = document.getElementById(btnName);
 
     // Retrieve the innerHTML of the paragraph
     const interestText = interest.innerHTML;
 
-    // Add the paragraph text to the interestArray
-    interestArray.push(interestText);
+    // Check if the interest is already in the interestArray
+    const index = interestArray.indexOf(interestText);
 
-    console.log(interestArray)
+    if (index !== -1) {
+        // Remove the interest if it's already in the array
+        interestArray.splice(index, 1);
+    } else {
+        // Add the interest if it's not in the array
+        interestArray.push(interestText);
+    }
+
+    console.log(interestArray);
 }
+
 
 
 

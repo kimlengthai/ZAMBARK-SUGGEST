@@ -402,7 +402,7 @@ footer {
   background-color: #fff;
   padding: 20px;
   text-align: center;
-  height: 250px;
+ 
 }
 
 #form_header {
@@ -606,6 +606,15 @@ input[type="password"] {
     flex-direction: row;
   }
   
+  .interestGuide{
+    color: #f6ae43;
+    
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
   .interest--getCRsty {
     border: 1px solid #ccc;
     padding: 10px;
@@ -661,13 +670,14 @@ input[type="password"] {
 .modal{
   z-index: 99;
   width: 500px;
-  background-color: white;
+  background-color: #f7b24a;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   margin: 0 auto;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
 }
 
 .content_container {
@@ -678,15 +688,16 @@ input[type="password"] {
   align-items: center;
   /* height: 1; */
   margin: 0 auto;
+  
 }
 
 #form_container {
   width: 350px;
   border-radius: 8px;
-  background-color: #fff;
+  background-color: #f7b24a;
   padding: 20px;
   text-align: center;
-  height: 250px;
+  height: 300px;
 }
 
 #form_header {
@@ -762,6 +773,7 @@ button:hover {
   justify-content: center;
 }
 .ask__user-text{
+  padding: 20px 0;
   font-size: 24px;
 }
 .ask__user-button{
@@ -829,12 +841,9 @@ h3 {
 h2 {
   font-size: 32px;
   margin-bottom: 32px;
-  text-align: center;
+  text-align: center;card
 }
 
-.ital {
-  font-style: italic;
-}
 
 button {
   cursor: pointer;
@@ -858,17 +867,46 @@ button:active {
 }
 
 .card {
+
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     padding: 16px;
     text-align: center;
     background-color: #f1f1f1;
-    /* height: 500px; */
+    height: 100%;
+    border-radius: 16px;
 }
+
+.logoPlace{
+  padding: 40px 0;
+  width: 200px;
+  /* height: 300px; */
+  margin: 0 auto;
+}
+
+
+.card__title{
+  color: #0078d4;
+  padding: 20px 0;
+  font-size: 24px;
+  font-style:italic;
+
+}
+
+#desc{
+  font-size: 20px;
+}
+
+
+#difficulty{
+  color: #f6b248;
+  font-size: 24px;
+}
+
 
 .column {
     float: left;
-    width: 25%;
-    padding: 0 10px;
+    width: 35%;
+    padding: 0 20px;
 }
 @media screen and (max-width: 600px) {
     .column {
@@ -895,9 +933,7 @@ button:active {
   width: 160px;
 }
 
-.logoPlace{
-  width: 200px;
-}
+
 
 .emoji {
   font-size: 120px;
@@ -1036,6 +1072,7 @@ header {
 
 .container {
   padding: 56px 0;
+  /* background-color: #ecf1fb; */
 }
 
 .row__subjects {
@@ -1046,6 +1083,11 @@ header {
   justify-content: center;
   align-items: center;
   
+}
+
+.row__subjects--spacing{
+  padding: 40px 0;
+  background-color: #ebf2fb;
 }
 
 .row {
@@ -1321,20 +1363,34 @@ header__PR {
     text-align: center;
 }
 
-.larger-card__PR {
-    width: 150px;
-    height: 150px;
-    padding: 20px;
-}
+
 
 .logoPlace__PR {
     width: 80px;
     margin: 10px auto;
     display: block;
 }
+.profile__body{
+  height: 100vh;
+  padding:  70px 0;
+  background-color: #ebf2fb;
+}
+.profile__body--space{
+  padding: 200px 0;
+}
 
 #profile-section__PR {
     padding: 20px 0;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+    padding: 8px;
+    text-align: center;
+    background-color: #f1f1f1;
+    margin: 10px;
+    width: 500px;
+    border-radius: 5%;
+    margin: 0 auto;
+    
+
 }
 
 .container__PR {
@@ -1342,7 +1398,14 @@ header__PR {
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    padding: 10px 0;
+}
+
+
+.container__PR--email{
+  font-size: 24px;
+  margin: 0 auto;
+  padding: 0 0 20px 0;
 }
 
 .interests__container__PR {
@@ -1355,8 +1418,9 @@ header__PR {
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
     padding: 8px;
     text-align: center;
-    background-color: #f1f1f1;
+    background-color: #f7a335;
     margin: 10px;
+    font-size: 20px;
 }
 
 .blue__PR {
@@ -1368,3 +1432,65 @@ header__PR {
         flex-wrap: wrap;
     }
 }
+
+/* Add this CSS to your existing styles.css or in a separate file */
+
+/* body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+.profile-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.user-profile {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  max-width: 300px;
+}
+
+.user-profile h1 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.user-profile h2 {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.subject-list {
+  list-style: none;
+  padding: 0;
+}
+
+.subject-list li {
+  margin: 5px 0;
+}
+
+.button-container {
+  margin-top: 20px;
+}
+
+.btn {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+} */

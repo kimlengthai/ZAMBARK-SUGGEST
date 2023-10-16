@@ -17,17 +17,12 @@ const database = firebase.database()
 
 
 
-
-
-
 // Set up our register function
 function register () {
   // Get all our input fields
   email = document.getElementById('emailR').value
   password = document.getElementById('passwordR').value
   full_name = document.getElementById('full_nameR').value
-  // favourite_song = document.getElementById('favourite_song').value
-  // milk_before_cereal = document.getElementById('milk_before_cereal').value
 
   // Validate input fields
   if (validate_email(email) == false || validate_password(password) == false) {
@@ -50,7 +45,6 @@ function register () {
     var user_data = {
       email : email,
       full_name : full_name,
-
       last_login : Date.now()
     }
 
@@ -68,6 +62,12 @@ function register () {
     alert(error_message)
   })
 }
+
+function loginButton(){
+  login()
+
+}
+
 
 // Set up our login function
 function login () {
@@ -100,23 +100,11 @@ function login () {
 
     // DOne
     alert('User Logged In and Subject Preferences are now Saved!')
+    subjectInsertion()
+
 
 
     
-
-
-
-
-
-
-
-
-
-
-
-    let crPopup = document.getElementById("crPopup");
-    crPopup.classList.remove("crPopup");
-
   })
   .catch(function(error) {
     // Firebase will use this to alert of its errors
@@ -126,6 +114,9 @@ function login () {
     alert(error_message)
   })
 }
+
+
+
 
 
 // Validate Functions
@@ -176,5 +167,85 @@ if (popup.classList.contains("popup__after")) {
 }
 
 //
+
+
+//..........................
+
+//Subjects are inserted into User Profile/Database
+async function subjectInsertion() {
+  // Fetch the coursesData
+  const coursesData = await subjectFetcher();
+
+  await fetch(`https://17w1ig90pc.execute-api.ap-southeast-2.amazonaws.com/live/users/update/`, {
+    method: "POST",
+    headers: { "Accept": "application/json", "Content-Type": "application/json" },
+    body: JSON.stringify({
+      "user": full_name,
+      "email": email,
+      "rec": coursesData.map(course => course.name), // Map coursesData to an array of course names
+    })
+  });
+}
+
+
+
+// const coursesListEl = document.querySelector(".") //fill this out
+
+async function subjectFetcher (){
+    
+    const interestsGroup = localStorage.getItem("interests") //gets the interest from previous page
+    const interests = interestsGroup.toLowerCase(); // turns all of them to lowercase
+    console.log(interests)
+    const interestsArray = interests.split(','); //splits the interest string up and puts them into an array
+    console.log(interestsArray); 
+
+
+    let interestName = ''
+    for (let i = 0; i < interestsArray.length; i++) {
+        interestName += 'interests=' + interestsArray[i] +'&';
+    }
+    
+    console.log(interestName)
+    
+    // Remove the trailing '&' from interestName
+    interestName = interestName.slice(0, -1);
+    // console.log(interestName)
+    
+    // Now you can make the fetch request using the constructed URL
+    const courses = await fetch(`https://17w1ig90pc.execute-api.ap-southeast-2.amazonaws.com/live/subjects/hsc/?${interestName}`) 
+    const coursesData = await courses.json()
+    const coursesListEl = document.querySelector(".row__subjects");   
+    coursesListEl.innerHTML = coursesData.map((course) => userHTML(course)).join()
+
+    console.log(coursesData)
+
+    return coursesData;
+}
+ 
+subjectFetcher()
+
+function userHTML(course){
+    return`
+    <div class="column">
+    <div class="card">
+        <h2 id="subjectName">${course.name}</h2>
+
+        <div class="logoPlace" >
+            <img src="${course.image}" alt="">
+        </div>
+
+
+        <p class="card__title" > Description </p>
+        <p id="desc" >${course.description}</p>
+        <p class="card__title" > Student Review </p>
+        <p><br>"<span id="review">${course.review}</span>"<br></p>
+        <p><br></p>
+        <p id="difficulty" >Difficulty Level: ${course.difficulty}</p>
+    </div>
+</div>
+    
+    
+    `
+}
 
 
