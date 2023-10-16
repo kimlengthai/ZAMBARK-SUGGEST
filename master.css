@@ -862,6 +862,7 @@ button:active {
     padding: 16px;
     text-align: center;
     background-color: #f1f1f1;
+    /* height: 500px; */
 }
 
 .column {

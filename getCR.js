@@ -28,6 +28,12 @@ function htmlUpdater(interests) {
 
 function nextBtn(){
     console.log(interestArray)
-    htmlUpdater(interestArray)
+    if (interestArray.length >= 3){
+        console.log(interestArray)
+        htmlUpdater(interestArray)
+    }
+    else{
+        alert('Choose 3 or more Preferences to continue!')
+    }
 }
 
