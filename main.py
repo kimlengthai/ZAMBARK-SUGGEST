@@ -14,7 +14,7 @@ from typing import Annotated
 load_dotenv()
 ATLAS_URI = os.getenv("ATLAS_URI")
 
-app = FastAPI(title="Zambark CRS API", root_path="/live")  # , root_path="/live"
+app = FastAPI(title="Zambark CRS API")  # , root_path="/live"
 origins = ["*"]     # "http://zambark.vercel.app","https://zambark.vercel.app"
 app.add_middleware(
     CORSMiddleware,
@@ -45,8 +45,9 @@ class Result(BaseModel):
     matches: int
 
 class Update(BaseModel):
-    user: str
-    rec: list[str]
+    email: str
+    username: str
+    rec: list[dict]
 
 @app.get("/")
 async def test_atlas_connection():
@@ -87,10 +88,25 @@ async def get_recommendations(faculty: str,
 @app.post("/users/update/")
 async def append_recommendation_history(update: Update):
     result = await users.update_one(
-        {"username": update.user},
-        {"$push": {"history": update.rec}},
+        {"email": update.email},
+        {
+            "$set": {"username": update.username},
+            "$push": {"history": {"$each": [update.rec], "$position": 0}}
+        },
         upsert=True
     )
     if result.acknowledged:
         return JSONResponse(status_code=status.HTTP_200_OK, content=json.loads(json_util.dumps(result.raw_result)))
     raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail=f"An error occured trying to push the update. Is the request correct?")
+
+@app.get("/users/{user}/", response_model=list[Result])
+async def get_history(user: str, it: int):
+    result = await users.aggregate([
+        {"$match": {"email": user}},
+        {"$project": {
+            "email": 1,
+            "username": 1,
+            "rec": {"$arrayElemAt": ["$history", it]}
+        }}
+    ]).to_list(length=3)
+    return JSONResponse(status_code=status.HTTP_200_OK, content=json.loads(json_util.dumps(result)))
