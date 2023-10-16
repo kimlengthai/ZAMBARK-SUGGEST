@@ -14,7 +14,7 @@ from typing import Annotated
 load_dotenv()
 ATLAS_URI = os.getenv("ATLAS_URI")
 
-app = FastAPI(title="Zambark CRS API")  # , root_path="/live"
+app = FastAPI(title="Zambark CRS API", root_path="/live")  # , root_path="/live"
 origins = ["*"]     # "http://zambark.vercel.app","https://zambark.vercel.app"
 app.add_middleware(
     CORSMiddleware,
