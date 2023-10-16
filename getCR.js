@@ -7,6 +7,7 @@ let interestArray = [];
 function getButton(btnName1) {
     // Retrieve the paragraph using the paragraphId
     const interest = document.getElementById(btnName1);
+    
 
     // Retrieve the innerHTML of the paragraph
     const interestText = interest.innerHTML;

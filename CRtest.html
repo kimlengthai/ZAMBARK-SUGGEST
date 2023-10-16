@@ -8,7 +8,7 @@
   <title>Course Recommendation System</title>
   <link rel="stylesheet" href="master.css">
   <script src="https://kit.fontawesome.com/20b352c5e7.js" crossorigin="anonymous"></script>
-  <script src="CRtest.js"></script>
+
 </head>
 
 <body>
@@ -19,7 +19,7 @@
         <ul class="nav__links">
           <li><a href="./index.html" class="nav__link">Home</a></li>
           <!-- <li><a href="#" class="nav__link">About</a></li> -->
-          <li><a href="#" class="nav__link nav__link--primary">About</a></li>
+          <li><a href="./profile.html" class="nav__link nav__link--primary">Profile</a></li>
         </ul>
       </div>
     </nav>
@@ -30,8 +30,8 @@
             </div>
 
             <div class="ask__user">
-              <p class="ask__user-text" > Would you like to save this to your profile?</p>
-              <button class="ask__user-button" onclick="modalOpen()"> IF SO CLICK HERE </button>
+              <p class="ask__user-text" > Save subjects to your profile? Click here!</p>
+              <button class="ask__user-button" onclick="modalOpen()"> Here </button>
             </div>
 
             <div id="modal" class="modal popup">
@@ -50,7 +50,7 @@
                           <div class="buttons__container">
                               
                               <div id="button_container">
-                                  <button onclick="login()">Login</button>
+                                  <button onclick="loginButton()">Login</button>
                               </div>
                               
                           </div>
@@ -88,28 +88,25 @@
   <main>
     <section id="highlights">
         <div class="container">
+         
             <div class="row__subjects">
+
                 <div class="column">
                     <div class="card">
-                        <h2>Subject</h2>
-                        <img class="logoPlace" src="./assets/cr__logo.png" alt="">
-                        <p><br>"<span class="ital">Blah Blah</span>" - Student Review<br></p>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star"></span>
-                        <span class="fa fa-star"></span>
-                        <span class="fa fa-star"></span>
-                        <span class="fa fa-star"></span>
+                        <h2 id="subjectName">Subject</h2>
+                        <div class="logoPlace" >
+                            <img src="./assets/loadingGif.gif" alt="">
+                        </div>
+                        
+                        <p class="card__title" > Description </p>
+                        <p id="desc" ></p>
+                        <p class="card__title" > Student Review </p>
+                        <p><br>"<span id="review"> ... </span>"<br></p>
                         <p><br></p>
-                        <hr>
-                        <p><br>"<span class="ital">Blah Blah</span>" - Student Review<br></p>
-                        <span class="fa fa-star"></span>
-                        <span class="fa fa-star"></span>
-                        <span class="fa fa-star"></span>
-                        <span class="fa fa-star"></span>
-                        <span class="fa fa-star"></span>
-                        <p><br></p>
+                        <p id="difficulty" >Difficulty Level: </p>
                     </div>
                 </div>
+                
             </div>
           </div>
         </div>
