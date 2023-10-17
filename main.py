@@ -46,7 +46,6 @@ class Result(BaseModel):
 
 class Update(BaseModel):
     email: str
-    username: str
     rec: list[dict]
 
 @app.get("/")
@@ -89,10 +88,7 @@ async def get_recommendations(faculty: str,
 async def append_recommendation_history(update: Update):
     result = await users.update_one(
         {"email": update.email},
-        {
-            "$set": {"username": update.username},
-            "$push": {"history": {"$each": [update.rec], "$position": 0}}
-        },
+        {"$push": {"history": {"$each": [update.rec], "$position": 0}}},
         upsert=True
     )
     if result.acknowledged:
@@ -105,7 +101,6 @@ async def get_history(user: str, it: int):
         {"$match": {"email": user}},
         {"$project": {
             "email": 1,
-            "username": 1,
             "rec": {"$arrayElemAt": ["$history", it]}
         }}
     ]).to_list(length=3)
