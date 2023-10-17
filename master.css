@@ -754,7 +754,7 @@ button:hover {
 }
 
 
-/* Modal Animation  */
+/* Modal and Profile Animation */
 
 .popup{
   visibility: hidden;
@@ -764,6 +764,17 @@ button:hover {
 
   visibility: visible;
 }
+
+.profilePopup{
+  visibility: hidden;
+}
+
+.profilePopup__after{
+
+  visibility: visible;
+}
+
+/* ----- */
 
 .ask__user{
   padding: 30px;
@@ -841,7 +852,7 @@ h3 {
 h2 {
   font-size: 32px;
   margin-bottom: 32px;
-  text-align: center;card
+  text-align: center;
 }
 
 
@@ -964,7 +975,7 @@ button:active {
 }
 
 .nav__link--primary {
-  border: 2px solid #01b2fe;
+  border: 2px solid #f8af44;
   border-radius: 4px;
 }
 
