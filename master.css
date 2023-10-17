@@ -970,6 +970,31 @@ button:active {
   padding: 8px;
 }
 
+.profileSubjectBttn{
+  width: 140px;
+  padding: 10px;
+  font-size: 24px;
+}
+
+.PR--spacing{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding:  120px 0;
+}
+
+.profileTitleSpacing{
+  padding: 130px;
+}
+.textMiddle{
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0 0 100px 0;
+}
+
 .nav__link:hover {
   text-decoration: underline;
 }
