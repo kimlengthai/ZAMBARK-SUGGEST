@@ -1,3 +1,4 @@
+let profileArray = []
 // Your web app's Firebase configuration
 var firebaseConfig = {
   apiKey: "AIzaSyDowsVTAibuecebDPvYOUD_BtQ3QW8PF6M",
@@ -65,7 +66,7 @@ function register () {
 
 function loginButton(){
   login()
-
+  
 }
 
 
@@ -101,9 +102,8 @@ function login () {
     // DOne
     alert('User Logged In and Subject Preferences are now Saved!')
     subjectInsertion()
-
-
-
+    profileArray.push(email);
+    profileOpen()
     
   })
   .catch(function(error) {
@@ -156,14 +156,23 @@ function validate_field(field) {
 //---------------------------
 
 
-let popup = document.getElementById("modal");
-
-function modalOpen() {
-if (popup.classList.contains("popup__after")) {
-  popup.classList.remove("popup__after");
-} else {
-  popup.classList.add("popup__after");
+let profilePopup = document.getElementById("profilePage");
+function profileOpen() {
+  if (profilePopup.classList.contains("profilePopup__after")) {
+    profilePopup.classList.remove("profilePopup__after");
+  } else {
+    profilePopup.classList.add("profilePopup__after");
+  }
 }
+
+
+let popup = document.getElementById("modal");
+function modalOpen() {
+  if (popup.classList.contains("popup__after")) {
+    popup.classList.remove("popup__after");
+  } else {
+    popup.classList.add("popup__after");
+  }
 }
 
 //
@@ -177,12 +186,12 @@ async function subjectInsertion() {
   const coursesData = await subjectFetcher();
 
   await fetch(`https://17w1ig90pc.execute-api.ap-southeast-2.amazonaws.com/live/users/update/`, {
-    method: "POST",
     headers: { "Accept": "application/json", "Content-Type": "application/json" },
+    method: "POST",
     body: JSON.stringify({
-      "user": full_name,
       "email": email,
-      "rec": coursesData.map(course => course.name), // Map coursesData to an array of course names
+      "rec": coursesData // Map coursesData to an array of course names
+
     })
   });
 }
@@ -224,6 +233,7 @@ async function subjectFetcher (){
  
 subjectFetcher()
 
+
 function userHTML(course){
     return`
     <div class="column">
@@ -249,3 +259,9 @@ function userHTML(course){
 }
 
 
+
+function profileDisplay(profile) {
+  localStorage.setItem("profile", profile);
+  window.location.href = `${window.location.origin}/profile.html`;
+
+}
