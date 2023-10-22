@@ -934,7 +934,7 @@ button:active {
   justify-content: center;
   align-items: center;
   margin: 0 auto;
-  padding: 0 0 100px 0;
+  padding: 70px 20px ;
 }
 
 .nav__link:hover {
@@ -1306,9 +1306,9 @@ header__PR {
 }
 
 #profile-section__PR {
-    padding: 20px 0;
+    padding: 20px ;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
-    padding: 8px;
+
     text-align: center;
     background-color: #f1f1f1;
     margin: 10px;
