@@ -1,6 +1,5 @@
 let itValue = 0
 
-
 async function profileFetcher (){
     // https://17w1ig90pc.execute-api.ap-southeast-2.amazonaws.com/live/users/amit%40email.com/?it=0
 
@@ -54,13 +53,13 @@ function userHTML(history){
     `
 }
 
-function nextButtonClick() {
+function prevButtonClick() {
     itValue++; // Increment the "it" value
     profileFetcher(); // Fetch and update data with the new "it" value
     console.log(history)
 }
 
-function prevButtonClick() {
+function nextButtonClick() {
     if (itValue > 0) {
         itValue--; // Decrement the "it" value (ensure it doesn't go below 0)
         profileFetcher(); // Fetch and update data with the new "it" value
