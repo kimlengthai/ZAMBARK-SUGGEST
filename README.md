@@ -1,4 +1,4 @@
-# Subject-Recommendation-System
+# Subject-Recommender
 
 
 **Contributors:**
