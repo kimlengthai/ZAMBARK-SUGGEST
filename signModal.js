@@ -167,6 +167,8 @@ function profileOpen() {
 
 
 let popup = document.getElementById("modal");
+
+
 function modalOpen() {
   if (popup.classList.contains("popup__after")) {
     popup.classList.remove("popup__after");
