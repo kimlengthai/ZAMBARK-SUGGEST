@@ -54,15 +54,15 @@ function userHTML(history){
 }
 
 function prevButtonClick() {
-    itValue++; // Increment the "it" value
-    profileFetcher(); // Fetch and update data with the new "it" value
+    itValue++; // increase the "it" value
+    profileFetcher(); // fetch and update data with the new "it" value
     console.log(history)
 }
 
 function nextButtonClick() {
     if (itValue > 0) {
-        itValue--; // Decrement the "it" value (ensure it doesn't go below 0)
-        profileFetcher(); // Fetch and update data with the new "it" value
+        itValue--; // decrease the "it" value (ensure it doesn't go below 0 via if statement innit)
+        profileFetcher(); // fetc and update data with the new "it" value
         console.log(history)
     }
 }

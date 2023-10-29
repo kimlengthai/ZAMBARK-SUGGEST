@@ -184,7 +184,7 @@ function modalOpen() {
 
 //Subjects are inserted into User Profile/Database
 async function subjectInsertion() {
-  // Fetch the coursesData
+  // fetch the coursesData
   const coursesData = await subjectFetcher();
 
   await fetch(`https://17w1ig90pc.execute-api.ap-southeast-2.amazonaws.com/live/users/update/`, {
@@ -192,7 +192,7 @@ async function subjectInsertion() {
     method: "POST",
     body: JSON.stringify({
       "email": email,
-      "rec": coursesData // Map coursesData to an array of course names
+      "rec": coursesData // maps coursesData to an array of course names
 
     })
   });
@@ -218,11 +218,11 @@ async function subjectFetcher (){
     
     console.log(interestName)
     
-    // Remove the trailing '&' from interestName
+    // remove the  '&' but delete last char
     interestName = interestName.slice(0, -1);
     // console.log(interestName)
     
-    // Now you can make the fetch request using the constructed URL
+
     const courses = await fetch(`https://17w1ig90pc.execute-api.ap-southeast-2.amazonaws.com/live/subjects/hsc/?${interestName}`) 
     const coursesData = await courses.json()
     const coursesListEl = document.querySelector(".row__subjects");   

@@ -5,20 +5,20 @@
 let interestArray = [];
 
 function getButton(btnName) {
-    // Retrieve the paragraph using the btnName
+    // get the name of button using btnName
     const interest = document.getElementById(btnName);
 
-    // Retrieve the innerHTML of the paragraph
+    // get the innerHTML of the paragraph
     const interestText = interest.innerHTML;
 
-    // Check if the interest is already in the interestArray
+    // checkin if the interest is already in the interestArray
     const index = interestArray.indexOf(interestText);
 
     if (index !== -1) {
-        // Remove the interest if it's already in the array
+        // delete innit the interest if it's already in the array BRUV
         interestArray.splice(index, 1);
     } else {
-        // Add the interest if it's not in the array
+        // add/push the interest if it's not in the array
         interestArray.push(interestText);
     }
 
