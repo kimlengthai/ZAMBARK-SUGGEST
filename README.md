@@ -1,17 +1,19 @@
-# Subject-Recommender
+# Software Design Studio 2023
+
+This is the repository of our team for UTS Software Design Studio. This repo contains the source code for a Course Recommendation System for Students.
 
 
 ## Team Contributors
 
 Ahmed Khilji - 13525643: Leader and Frontend
 
-Amit Sharan - 24464671: Co-Leader and Backend
+Amit Sharan - 24464671: Co-leader and Backend
 
 Zihad Burhan - 14334116: Frontend
 
 Braedon James - 24491639: Frontend
 
-Mohmmad ALmadi - 24573279: Backend
+Mohmmad Almadi - 24573279: Backend
 
 Kimleng That - 24577494: Backend
 
