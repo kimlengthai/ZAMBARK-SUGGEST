@@ -1,6 +1,6 @@
 # Software Design Studio 2023
 
-This is the repository of our team for UTS Software Design Studio. This repo contains the source code for a Course Recommendation System for Students.
+This is the repository of our team for UTS Software Design Studio subject. This repo contains the source code for a Course Recommendation System for Students.
 
 
 ## Team Contributors
